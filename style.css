@@ -8,6 +8,7 @@
     --forest: #345439;
     --ink: #251A0D;
     --blue: #2F78B3;
+    --Darkblue: #013f73;
     --orange: #E25022;
     --pink: #F1B3C4;
     --lime: #C4C555;
@@ -24,12 +25,14 @@
     align-items: center;
 }
 .homeSection h1{
+     font-family: "Bodoni Moda",serif;
     margin-top: 40px;
     font-size: 8vh;
     color: var(--blue);
 }
 .homeSection h4{
-    font-size: 4vh;
+    font-family: "Allura", cursive;
+    font-size: 5vh;
     color: var(--orange);
 }
 
@@ -37,25 +40,67 @@
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .service{
     width: 150px;
-    height: 150px;
-    background: var(--forest);
+    height: 155px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: none;
     border-radius: 20px;
-    gap: 5px;
+    gap: 10px;
     transition: transform 1.2s ease;
+    font-family: "Cormorant Garamond", serif;
+   
+
 }
 .service img{
     height: 100px;
     border: none;
     border-radius: 20px;
+   
+}
+
+#notesLink{
+  background: var(--forest);
+  color: white;
+}
+#pastPapersLink{
+    background: var(--lime);
+     color: var(--Darkblue);
+}
+#semesterTimelineLink{
+    background: var(--pink);
+     color: var(--Darkblue);
+}
+#collegeSurvivalMapLink{
+    border: 2px solid var(--blue);
+     color: var(--Darkblue);
+}
+#examSurvivalMapLink{
+    background: var(--orange);
+  color: white;
+
+}
+#beyondCollegeLink{
+    background: var(--Darkblue);
+  color: white;
+
+}
+#teaRoomLink{
+    background: var(--lime);
+     color: var(--Darkblue);
+}
+#legalActivitiesLink{
+    background: var(--pink);
+     color: var(--Darkblue);
+}
+#rantInputLink{
+   border: 2px solid var(--blue);
+    color: var(--Darkblue);
 }
 
 .service:hover{
