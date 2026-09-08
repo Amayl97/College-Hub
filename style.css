@@ -3,38 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --paper: #F6F1EC;
+    --forest: #345439;
+    --ink: #251A0D;
+    --blue: #2F78B3;
+    --orange: #E25022;
+    --pink: #F1B3C4;
+    --lime: #C4C555;
+    --beige: #E5D8CB;
+    --taupe: #AC9179;
+}
 
 .homeSection{
     height: 100vh;
     width: 100%;
-    background: pink;
+    background: var(--paper);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .homeSection h1{
-    margin-top: 10px;
+    margin-top: 40px;
     font-size: 8vh;
+    color: var(--blue);
 }
 .homeSection h4{
     font-size: 4vh;
+    color: var(--orange);
 }
 
 .servicesDiv{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    margin-top: 40px;
 }
 .service{
     width: 150px;
     height: 150px;
-    background: red;
+    background: var(--forest);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    border: none;
+    border-radius: 20px;
+    gap: 5px;
+    transition: transform 1.2s ease;
 }
 .service img{
     height: 100px;
+    border: none;
+    border-radius: 20px;
+}
+
+.service:hover{
+     border: 2px solid var(--orange);
+}
+
+.service:active{
+    border: 4px solid var(--orange);
 }
