@@ -1,0 +1,155 @@
+{
+    "departments": [
+        {
+            "id": "it",
+            "name": "BS Information Technology",
+            "subjects": [
+                {
+                    "id":"daa",
+                    "name":"Design and Analysis of Algorithm",
+                    "outline":"",
+                    "notes":[],
+                    "slides":[],
+                    "labMaterial":[],
+                    "pastPapers":[],
+                    "resources":[]
+                },
+                {
+                    "id":"is",
+                    "name":"Information Security",
+                    "outline":"",
+                    "notes":[],
+                    "slides":[],
+                    "labMaterial":[],
+                    "pastPapers":[],
+                    "resources":[]
+                },
+                {
+                    "id":"os",
+                    "name":"Operating System",
+                    "outline":"",
+                    "notes":[],
+                    "slides":[],
+                    "labMaterial":[],
+                    "pastPapers":[],
+                    "resources":[]
+                },
+                {
+                    "id":"sre",
+                    "name":"Software Requirement Engineering",
+                    "outline":"",
+                    "notes":[],
+                    "slides":[],
+                    "labMaterial":[],
+                    "pastPapers":[],
+                    "resources":[]
+                },
+                {
+                    "id":"webTech",
+                    "name":"Web Technologies",
+                    "outline":"",
+                    "notes":[],
+                    "slides":[],
+                    "labMaterial":[],
+                    "pastPapers":[],
+                    "resources":[]
+                },
+                {
+                    "id":"enterprise",
+                    "name":"Enterprise System",
+                     "outline":"",
+                    "notes":[],
+                    "slides":[],
+                    "labMaterial":[],
+                    "pastPapers":[],
+                    "resources":[]
+                },
+                {
+                    "id":"pom",
+                    "name":"Principles of Management",
+                     "outline":"",
+                    "notes":[],
+                    "slides":[],
+                    "labMaterial":[],
+                    "pastPapers":[],
+                    "resources":[]
+                },
+                {
+                    "id":"mad",
+                    "name":"Mobile Application Development",
+                     "outline":"",
+                    "notes":[],
+                    "slides":[],
+                    "labMaterial":[],
+                    "pastPapers":[],
+                    "resources":[]
+                },
+                {
+                    "id":"sna",
+                    "name":"System and Network Administration",
+                    "notes":[],
+                    "slides":[],
+                    "labMaterial":[],
+                    "pastPapers":[],
+                    "resources":[]
+                },
+                {
+                    "id":"ai",
+                    "name":"Artificial Intelligence",
+                     "outline":"",
+                    "notes":[],
+                    "slides":[],
+                    "labMaterial":[],
+                    "pastPapers":[],
+                    "resources":[]
+                }
+                
+            ]
+        },
+        {
+            "id": "english",
+            "name": "BS English",
+            "subjects": []
+        },
+        {
+            "id": "bba",
+            "name": "BS Business Administration",
+            "subjects": []
+        },
+          {
+            "id": "islamicSt",
+            "name": "BS Islamic Studies",
+            "subjects": []
+        },
+          {
+            "id": "physics",
+            "name": "BS Physics",
+            "subjects": []
+        },
+          {
+            "id": "mathematics",
+            "name": "BS Mathematics",
+            "subjects": []
+        },
+          {
+            "id": "polSci",
+            "name": "BS Political Science",
+            "subjects": []
+        },
+          {
+            "id": "urdu",
+            "name": "BS Urdu",
+            "subjects": []
+        },
+          {
+            "id": "chemistry",
+            "name": "BS Chemistry",
+            "subjects": []
+        },
+          {
+            "id": "zoology",
+            "name": "BS Zoology",
+            "subjects": []
+        }
+    ]
+}
