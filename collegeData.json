@@ -5,105 +5,638 @@
             "name": "BS Information Technology",
             "subjects": [
                 {
-                    "id":"daa",
-                    "name":"Design and Analysis of Algorithm",
-                    "outline":"",
-                    "notes":[],
-                    "slides":[],
-                    "labMaterial":[],
-                    "pastPapers":[],
-                    "resources":[]
+                    "id": "daa",
+                    "name": "Design and Analysis of Algorithm",
+                    "outline": "",
+                    "notes": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "slides": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "labMaterial": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "pastPapers": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "resources": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "link": ""
+                        }
+                    ]
                 },
                 {
-                    "id":"is",
-                    "name":"Information Security",
-                    "outline":"",
-                    "notes":[],
-                    "slides":[],
-                    "labMaterial":[],
-                    "pastPapers":[],
-                    "resources":[]
+                    "id": "is",
+                    "name": "Information Security",
+                    "outline": "",
+                    "notes": [
+                        {
+                            "title": "Principle of Information Security Book",
+                            "description": "By Whitman.",
+                            "file": "./data/infoSec/notes/Principles of Information Security by Whitman.pdf"
+                        }
+                    ],
+                    "slides": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "labMaterial": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "pastPapers": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "resources": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "link": ""
+                        }
+                    ]
                 },
                 {
-                    "id":"os",
-                    "name":"Operating System",
-                    "outline":"",
-                    "notes":[],
-                    "slides":[],
-                    "labMaterial":[],
-                    "pastPapers":[],
-                    "resources":[]
+                    "id": "os",
+                    "name": "Operating System",
+                    "outline": "",
+                    "notes": [
+                        {
+                            "title": "Operation System Book by Abraham Silberschatz",
+                            "description": "",
+                            "file": "./data/os/notes/Abraham Silberschatz-Operating System Concepts (9t_251210_082354.pdf"
+                        }
+                    ],
+                    "slides": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "labMaterial": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "pastPapers": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "resources": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "link": ""
+                        }
+                    ]
                 },
                 {
-                    "id":"sre",
-                    "name":"Software Requirement Engineering",
-                    "outline":"",
-                    "notes":[],
-                    "slides":[],
-                    "labMaterial":[],
-                    "pastPapers":[],
-                    "resources":[]
+                    "id": "sre",
+                    "name": "Software Requirement Engineering",
+                    "outline": "",
+                    "notes": [
+                        {
+                            "title": "Software Requirement Engineering Notes",
+                            "description": "These notes are provide by college Professor.",
+                            "file": "./data/sre/notes/SRE.pdf"
+                        }
+                    ],
+                    "slides": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "labMaterial": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "pastPapers": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "resources": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ]
                 },
                 {
-                    "id":"webTech",
-                    "name":"Web Technologies",
-                    "outline":"",
-                    "notes":[],
-                    "slides":[],
-                    "labMaterial":[],
-                    "pastPapers":[],
-                    "resources":[]
+                    "id": "webTech",
+                    "name": "Web Technologies",
+                    "outline": "",
+                    "notes": [
+                        {
+                            "title": "Web Application Architecture Book",
+                            "description": "This book covered most of our outline.",
+                            "file": "./data/webTech/notes/Web-Application-Architecture-Principles-Protocols-_251123_192824.pdf"
+                        }
+                    ],
+                    "slides": [
+                        {
+                            "title": "SEO Lecture Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/webTech/slides/seo.ppt"
+                        },
+                        {
+                            "title": "Server Configuration Lecture Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/webTech/slides/Server Configuration.pptx"
+                        },
+                        {
+                            "title": "World Wide Web Introduction - Lecture Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/webTech/slides/web world wide defination introduction.pptx"
+                        }
+
+                    ],
+                    "labMaterial": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "pastPapers": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "resources": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ]
                 },
                 {
-                    "id":"enterprise",
-                    "name":"Enterprise System",
-                     "outline":"",
-                    "notes":[],
-                    "slides":[],
-                    "labMaterial":[],
-                    "pastPapers":[],
-                    "resources":[]
+                    "id": "enterprise",
+                    "name": "Enterprise System",
+                    "outline": {
+                        "title": "Enterprise System",
+                        "code" : "SI342",
+                        "file": "./data/enterprise/outline/SI342.pdf"
+                    },
+                    "notes": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "slides": [
+                        {
+                            "title": "ADO NET Introduction - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/ADO_NET_Introduction.pptx"
+                        },
+                          {
+                            "title": "C# Delegates, Boxing, and Unboxing - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/CSharp_Delegates_Boxing_Unboxing.pptx"
+                        },
+                             {
+                            "title": "C# Fundamentals - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/CSharp_Fundamentals.pptx"
+                        },
+                             {
+                            "title": "DOM in JavaScript - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/DOM_in_JavaScript.pptx"
+                        },
+                             {
+                            "title": "Dot NET - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/dotnet_enterprise.pptx"
+                        },
+                        {
+                            "title": "Enterprise Systems Introduction- Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/Enterprise Systems SI342.pptx"
+                        },
+                        {
+                            "title": "JavaScript Arrays - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/JavaScript_Arrays.pptx"
+                        },
+                        {
+                            "title": "JavaScript Functions - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/JavaScript_Functions.pptx"
+                        },
+                        {
+                            "title": "JavaScript Fundamentals - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/JavaScript_Fundamentals.pptx"
+                        },
+                        {
+                            "title": "JavaScript vs CPP - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/JavaScript_vs_CPP.pptx"
+                        },
+                        {
+                            "title": "JQuery Linq - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/jquery_linq_slides.pdf"
+                        },
+                        {
+                            "title": "JavaScript IF - condition - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/JS_IF_Condition.pptx"
+                        },
+                        {
+                            "title": "JavaScript Loops- Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/JS_Loops.pptx"
+                        },
+                        {
+                            "title": "JavaScript QA - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/JS_QA_Slides.pptx"
+                        },
+                        {
+                            "title": "JavaScript vs C# - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/JS_vs_CSharp.pptx"
+                        },
+                        {
+                            "title": "NET Framework - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/NET_Framework_Enterprise.pptx"
+                        },
+                        {
+                            "title": "Switch Statements in JS - Slides",
+                            "description": "These slides are provided by our lecturer.",
+                            "file": "./data/enterprise/slides/Switch_Statement_JS.pptx"
+                        }
+                    ],
+                    "labMaterial": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "pastPapers": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "resources": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ]
                 },
                 {
-                    "id":"pom",
-                    "name":"Principles of Management",
-                     "outline":"",
-                    "notes":[],
-                    "slides":[],
-                    "labMaterial":[],
-                    "pastPapers":[],
-                    "resources":[]
+                    "id": "pom",
+                    "name": "Principles of Management",
+                    "outline": "",
+                    "notes": [
+                        {
+                            "title": "Ethics and Social Responsibility",
+                            "description": "These notes are provided by our college professor.",
+                            "file": "./data/pom/notes/Ethics and social respo.pdf"
+                        },
+                         {
+                            "title": "Leadership and Influence Process",
+                            "description": "These notes are provided by our college professor.",
+                            "file": "./data/pom/notes/Leadership and Influence process.pdf"
+                        },
+                         {
+                            "title": "Management & Managers",
+                            "description": "These notes are provided by our college professor.",
+                            "file": "./data/pom/notes/Management & Managers.pdf"
+                        },
+                         {
+                            "title": "Managing Change & Innovation",
+                            "description": "These notes are provided by our college professor.",
+                            "file": "./data/pom/notes/Managing Change and Innovation.pdf"
+                        },
+                         {
+                            "title": "Planning & Decision Making",
+                            "description": "These notes are provided by our college professor.",
+                            "file": "./data/pom/notes/Planning and Decision Making.pdf"
+                        },
+                         {
+                            "title": "Principle of Management Notes (Short and Long Questions)",
+                            "description": "This pdf has questions that university can give in exam. These are optional as these are not included in outline but are often asked in exam.",
+                            "file": "./data/pom/notes/Principles of Management Notes.pdf"
+                        },
+                         {
+                            "title": "Roles by Mintzber",
+                            "description": "These notes are provided by our college professor.",
+                            "file": "./data/pom/notes/Roles by Mintzber.pdf"
+                        },
+                         {
+                            "title": "The Controlling Process",
+                            "description": "These notes are provided by our college professor.",
+                            "file": "./data/pom/notes/The Controlling Process.pdf"
+                        },
+                         {
+                            "title": "The Environment & Culture of Management",
+                            "description": "These notes are provided by our college professor.",
+                            "file": "./data/pom/notes/The Environment and Culture of Management.pdf"
+                        },
+                         {
+                            "title": "The Organizing Process",
+                            "description": "These notes are provided by our college professor.",
+                            "file": "./data/pom/notes/The Organizing Process.pdf"
+                        }
+                    ],
+                    "slides": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "labMaterial": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "pastPapers": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "resources": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ]
                 },
                 {
-                    "id":"mad",
-                    "name":"Mobile Application Development",
-                     "outline":"",
-                    "notes":[],
-                    "slides":[],
-                    "labMaterial":[],
-                    "pastPapers":[],
-                    "resources":[]
+                    "id": "mad",
+                    "name": "Mobile Application Development",
+                    "outline": {
+                        "title": "Outline",
+                        "code": "",
+                        "file": "./data/mad/outline/mad.pdf"
+                    },
+                    "notes": [
+                        {
+                            "title": "Introduction to Activity",
+                            "description": "These notes are provided by our College professor.",
+                            "file": "./data/mad/notes/1- introToActivity.pdf"
+                        },
+                          {
+                            "title": "Android Activity Part 1",
+                            "description": "These notes are provided by our College professor.",
+                            "file": "./data/mad/notes/android part 1.pdf"
+                        },
+                          {
+                            "title": "Android Activity Part 2",
+                            "description": "These notes are provided by our College professor.",
+                            "file": "./data/mad/notes/part 2.pdf"
+                        },
+                          {
+                            "title": "Android Activity Part 3",
+                            "description": "These notes are provided by our College professor.",
+                            "file": "./data/mad/notes/part 3.pdf"
+                        }
+                    ],
+                    "slides": [
+                        {
+                            "title": "Android Construct - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/mad/slides/Android Construct.pptx"
+                        },
+                        {
+                            "title": "Android Layouts - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/mad/slides/layouts.pptx"
+                        },
+                        {
+                            "title": "Adapters Lecture - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/mad/slides/Lecture-08-Adapters.pptx"
+                        },
+                        {
+                            "title": "Menus Lecture - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/mad/slides/Lecture-10-Menus.pdf"
+                        },
+                        {
+                            "title": "Dalvik Virtual Machine - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/mad/slides/What is Dalvik Virtual Machine.pptx"
+                        }
+                    ],
+                    "labMaterial": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "pastPapers": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "resources": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ]
                 },
                 {
-                    "id":"sna",
-                    "name":"System and Network Administration",
-                    "notes":[],
-                    "slides":[],
-                    "labMaterial":[],
-                    "pastPapers":[],
-                    "resources":[]
+                    "id": "sna",
+                    "name": "System and Network Administration",
+                    "outline": {
+                        "title": "Outline",
+                        "code": "",
+                        "file": "./data/sna/outline/sna.pdf"
+                    },
+                    "notes": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "slides": [
+                        {
+                            "title": "Bash Shell Scripting - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/sna/slides/bash shell scripting.ppt"
+                        },
+                          {
+                            "title": "Boot - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/sna/slides/boot.pptx"
+                        },
+                          {
+                            "title": "Comparative Analysis of Most Demanded OS - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/sna/slides/Comparative Analysis of most Demanded OS.pptx"
+                        },
+                          {
+                            "title": "Configuring Local Services and Managing Basic Issues in a System - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/sna/slides/Configuring Local services and managing basic system issues.pptx"
+                        },
+                          {
+                            "title": "IP Tables - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/sna/slides/IP Tables.pptx"
+                        },
+                          {
+                            "title": "Lecture 1 of SNA - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/sna/slides/Lecture 1.pptx"
+                        },
+                          {
+                            "title": "Reliable & Server Cost - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/sna/slides/Reliable+sever cost.pptx"
+                        },
+                          {
+                            "title": "Server Environment - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": ".data/sna/slides/Server Environment.pptx"
+                        },
+                          {
+                            "title": "User and Groups Administrator - Slides",
+                            "description": "These slides are provided by our college professor.",
+                            "file": "./data/sna/slides/userandgroupsadministrator-171201172114.pptx"
+                        }
+                    ],
+                    "labMaterial": [
+                        {
+                            "title": "RHL Installation",
+                            "description": "These are provided by our College Professor.",
+                            "file": "./data/sna/labMaterial/RHL Installation.pptx"
+                        },
+                          {
+                            "title": "SNA Lab Manual",
+                            "description": "These are provided by our College Seniors.",
+                            "file": "./data/sna/labMaterial/SNA Lab Manual.pdf"
+                        },
+                          {
+                            "title": "SNA Lab Viva Questions",
+                            "description": "These are provided by our College Seniors.",
+                            "file": "./data/sna/labMaterial/SNA Lab Viva Questions.pdf"
+                        }
+                    ],
+                    "pastPapers": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "resources": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ]
                 },
                 {
-                    "id":"ai",
-                    "name":"Artificial Intelligence",
-                     "outline":"",
-                    "notes":[],
-                    "slides":[],
-                    "labMaterial":[],
-                    "pastPapers":[],
-                    "resources":[]
+                    "id": "ai",
+                    "name": "Artificial Intelligence",
+                    "outline": "",
+                    "notes": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "slides": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "labMaterial": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "pastPapers": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ],
+                    "resources": [
+                        {
+                            "title": "",
+                            "description": "",
+                            "file": ""
+                        }
+                    ]
                 }
-                
             ]
         },
         {
@@ -116,37 +649,37 @@
             "name": "BS Business Administration",
             "subjects": []
         },
-          {
+        {
             "id": "islamicSt",
             "name": "BS Islamic Studies",
             "subjects": []
         },
-          {
+        {
             "id": "physics",
             "name": "BS Physics",
             "subjects": []
         },
-          {
+        {
             "id": "mathematics",
             "name": "BS Mathematics",
             "subjects": []
         },
-          {
+        {
             "id": "polSci",
             "name": "BS Political Science",
             "subjects": []
         },
-          {
+        {
             "id": "urdu",
             "name": "BS Urdu",
             "subjects": []
         },
-          {
+        {
             "id": "chemistry",
             "name": "BS Chemistry",
             "subjects": []
         },
-          {
+        {
             "id": "zoology",
             "name": "BS Zoology",
             "subjects": []
