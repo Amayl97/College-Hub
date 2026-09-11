@@ -1,0 +1,135 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   
+}
+
+:root {
+  --paper: #f6f1ec;
+  --forest: #345439;
+  --ink: #251a0d;
+  --blue: #2f78b3;
+  --Darkblue: #013f73;
+  --orange: #e25022;
+  --pink: #f1b3c4;
+  --lime: #c4c555;
+  --beige: #e5d8cb;
+  --taupe: #ac9179;
+}
+
+
+body {
+    font-family: "Cormorant Garamond", serif;
+    
+    background-image:
+        linear-gradient(to right, rgba(93,123,61,.25) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(93,123,61,.25) 1px, transparent 1px);
+
+    background-size:40px 40px;
+    /* background: var(--paper); */
+    padding:20px;
+}
+.heading{
+    background:var(--blue);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 15px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.container{
+    margin: 10px auto;
+   /* background: red; */
+   width: fit-content;
+   height: fit-content;
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   align-items: center;
+
+}
+.dropdown {
+    margin: 10px auto;
+    background: var(--paper);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    gap: 20px;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.111);
+    position: relative;
+    cursor: pointer;
+}
+.disabled {
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    width: 400px;
+    background: var(--paper);
+    padding: 10px;
+    border-radius: 15px;
+    z-index: 10;
+     box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.111);
+}
+
+.titleIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: orange; */
+    padding: 10px 10px 10px 10px;
+    border: 2px dashed black;
+    border-radius: 20px;
+    width: 400px;
+       
+}
+.titleIcon i{
+    font-size: 20px;
+}
+.title{
+  padding: 5px 10px;
+  font-size: 25px;
+  background-color: var(--pink);
+  border: none;
+  border-radius: 15px;
+  /* background: yellow; */
+}
+
+
+.inp{
+    font-size: 18px;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .titleIcon {
+        width: 100%;
+    }
+
+    .options {
+        width: calc(100% - 20px);
+    }
+}
