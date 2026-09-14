@@ -35,9 +35,34 @@
                     ],
                     "pastPapers": [
                         {
-                            "title": "",
-                            "description": "",
-                            "file": ""
+                            "title": "DAA IT Fall 2024 Solved Paper",
+                            "description": "Fall 2024 solved past paper.",
+                            "file": "../data/daa/pastPapers/DAA IT Fall 2024 Solved Past Paper (1).pdf"
+                        },
+                        {
+                            "title": "DAA IT Spring 2024 Paper",
+                            "description": "Spring 2024 solved past paper.",
+                            "file": "../data/daa/pastPapers/DAA Paper BS IT Spring 2024.pdf"
+                        },
+                        {
+                            "title": "DAA Fall 2023 Paper",
+                            "description": "This is the previous paper of fall 2023.",
+                            "file": "../data/daa/pastPapers/DAA PP 1.jpeg"
+                        },
+                        {
+                            "title": "DAA Fall 2022 Paper",
+                            "description": "This is the previous paper of DAA computer science fall 2022",
+                            "file": "../data/daa/pastPapers/DAA PP 2.jpeg"
+                        },
+                          {
+                            "title": "DAA Spring 2024 Paper",
+                            "description": "This is the previous paper of DAA of spring 2024.",
+                            "file": "../data/daa/pastPapers/DAA PP 3.jpeg"
+                        },
+                        {
+                            "title": "DAA Fall 2023Paper",
+                            "description": "This is the previous paper of DAA of fall 2023.",
+                            "file": "../data/daa/pastPapers/DAA PP 4.jpeg"
                         }
                     ],
                     "resources": [

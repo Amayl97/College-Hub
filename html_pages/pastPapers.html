@@ -1,11 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   past papers
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="./../css/pastPapers.css" />
+    <!-- Font Awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </head>
+
+  <body>
+    <h2 class="heading">Get Past Papers</h2>
+
+    <div class="container">
+        <!-- Department Input -->
+      <div class="dropdown">
+        <div class="titleIcon">
+            <p class="title">Choose Department</p>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+
+        <div class="options">
+           <div class="inp">
+            <input type="radio" name="department" value="it" id="it" />
+            <label for="it">Information Technology</label>
+          </div>
+
+          <div class="inp">
+            <input
+              type="radio"
+              name="department"
+              value="english"
+              id="english"
+            />
+            <label for="english">English</label>
+          </div>
+
+          <div class="inp">
+            <input
+              type="radio"
+              name="department"
+              value="polSci"
+              id="polSci"
+            />
+            <label for="polSci">Political Science</label>
+          </div>
+
+          <div class="inp">
+            <input
+              type="radio"
+              name="department"
+              value="islamicSt"
+              id="islamicSt"
+            />
+            <label for="islamicSt">Islamiyat</label>
+          </div>
+        </div>
+      </div>
+
+      
+ <!-- Subject Input -->
+       <div class="dropdown disabled" id="subjectDropdown">
+        <div class="titleIcon">
+            <p class="title">Choose Subject</p>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        
+        <div class="options" id="subjectOptions">
+        </div>
+      </div>
+    </div>
+
+    <div class="notesSection">
+      <!-- outline -->
+      <div class="pastPapers resources">
+        <p class="resName">Past Papers</p>
+         <p class="emptyRes">Choose department and subject.</p>
+      
+      </div>
+
+    </div>
+      <!-- Footer -->
+  <footer>
+    <div class="footerContent">
+
+        <div class="footerBrand">
+            <h2>College Hub</h2>
+            <p>Things they don't tell you.</p>
+        </div>
+
+        <div class="footerLinks">
+            <a href="../index.html">Home</a>
+            <a href="../index.hmtl">Services</a>
+            <a href="../index.html">About</a>
+        </div>
+
+        <div class="footerNote">
+            <p>
+                Made for students of Government Graduate College,
+                Mandi Bahauddin — and useful to students across
+                Punjab University affiliated colleges.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footerBottom">
+        <p>© 2026 College Hub</p>
+    </div>
+</footer>
+
+    <script src="./../js/pastPapers.js"></script>
+  </body>
 </html>
