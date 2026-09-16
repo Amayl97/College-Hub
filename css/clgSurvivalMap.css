@@ -1,0 +1,396 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --paper: #f6f1ec;
+    --forest: #345439;
+    --ink: #251a0d;
+    --blue: #2f78b3;
+    --lightBlue: #a1c9eab2;
+    --Darkblue: #013f73;
+    --orange: #e25022;
+    --pink: #f1b3c4;
+    --lime: #c4c555;
+    --beige: #e5d8cb;
+    --taupe: #ac9179;
+}
+
+/* ========================= MAIN ========================= */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.container h1 {
+    font-family: "Bodoni Moda", serif;
+    color: var(--blue);
+    margin-top: 20px;
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 2.8rem);
+}
+
+.para {
+    font-family: "Allura", cursive;
+    color: var(--orange);
+    font-size: clamp(1.8rem, 4vw, 1.9rem);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ========================= MAP ========================= */
+
+.map {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 0.3px solid rgba(0, 0, 0, 0.294);
+    border-radius: 5px;
+    width: min(90%, 1200px);
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.box {
+    border: 0.3px solid rgba(0, 0, 0, 0.294);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    min-width: 0;
+}
+
+.box h3 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: var(--pink);
+    text-align: center;
+    padding: 3px 8px;
+}
+
+.step {
+    font-size: 18px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.list {
+    margin: 10px auto;
+    list-style: none;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 17px;
+    width: 100%;
+}
+
+.list li {
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+
+.highlight {
+    background: var(--lightBlue);
+}
+
+/* ========================= IMAGE ========================= */
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: 170px;
+    object-fit: contain;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+a {
+    color: var(--blue);
+    font-style: italic;
+    overflow-wrap: break-word;
+}
+
+a:hover {
+    color: var(--orange);
+}
+
+
+/* ========================= FOOTER ========================= */
+
+footer {
+    width: 100%;
+    margin-top: 40px;
+    background-color: var(--forest);
+    color: var(--paper);
+    padding: 45px 8% 20px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.footerContent {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1.2fr;
+    gap: 50px;
+    align-items: start;
+}
+
+/* Brand */
+
+.footerBrand h2 {
+    font-family: "Bodoni Moda", serif;
+    font-size: clamp(2rem, 4vw, 2.5rem);
+    color: var(--paper);
+    margin-bottom: 5px;
+}
+
+.footerBrand p {
+    font-family: "Allura", cursive;
+    font-size: clamp(1.5rem, 3vw, 1.8rem);
+    color: var(--pink);
+}
+
+/* Navigation */
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.footerLinks a {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.1rem;
+    color: var(--paper);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footerLinks a:hover {
+    color: var(--lime);
+}
+
+/* Description */
+
+.footerNote {
+    max-width: 300px;
+}
+
+.footerNote p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--beige);
+}
+
+/* Bottom */
+
+.footerBottom {
+    max-width: 1100px;
+    margin: 35px auto 0;
+    padding-top: 15px;
+    border-top: 1px solid var(--taupe);
+    text-align: center;
+}
+
+.footerBottom p {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 0.95rem;
+    color: var(--beige);
+}
+
+
+/* ========================= TABLET ========================= */
+
+@media (max-width: 900px) {
+
+    .container {
+        padding: 15px;
+    }
+
+    .map {
+        grid-template-columns: repeat(2, 1fr);
+        width: 94%;
+    }
+
+    .box {
+        padding: 12px;
+    }
+
+    .box h3 {
+        font-size: 17px;
+    }
+
+    .step {
+        font-size: 17px;
+    }
+
+    .list {
+        font-size: 16px;
+    }
+
+    .footerContent {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+
+    .footerNote {
+        grid-column: 1 / -1;
+        max-width: 500px;
+    }
+}
+
+
+/* ========================= MOBILE ========================= */
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 10px;
+    }
+
+    .container h1 {
+        margin-top: 10px;
+    }
+
+    .para {
+        margin-bottom: 10px;
+    }
+
+    .map {
+        grid-template-columns: 1fr;
+        width: 96%;
+        margin: 15px 0;
+    }
+
+    .box {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .box h3 {
+        font-size: 17px;
+    }
+
+    .step {
+        font-size: 16px;
+    }
+
+    .list {
+        font-size: 16px;
+        max-width: 500px;
+    }
+
+    .list li {
+        padding: 8px;
+    }
+
+    img {
+        height: auto;
+        width: min(100%, 250px);
+    }
+
+
+    /* Footer */
+
+    footer {
+        padding: 40px 8% 18px;
+    }
+
+    .footerContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .footerBrand {
+        width: 100%;
+    }
+
+    .footerLinks {
+        align-items: center;
+        gap: 7px;
+    }
+
+    .footerLinks a {
+        font-size: 1rem;
+    }
+
+    .footerNote {
+        max-width: 100%;
+    }
+
+    .footerNote p {
+        font-size: 1rem;
+    }
+
+    .footerBottom {
+        margin-top: 25px;
+    }
+}
+
+
+/* ========================= SMALL PHONES ========================= */
+
+@media (max-width: 380px) {
+
+    .container {
+        padding: 8px;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .box {
+        padding: 12px 10px;
+    }
+
+    .box h3 {
+        font-size: 16px;
+    }
+
+    .step {
+        font-size: 15px;
+    }
+
+    .list {
+        font-size: 15px;
+    }
+
+    img {
+        width: min(100%, 220px);
+    }
+
+
+    /* Footer */
+
+    footer {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .footerBrand h2 {
+        font-size: 1.8rem;
+    }
+
+    .footerBrand p {
+        font-size: 1.4rem;
+    }
+
+    .footerBottom p {
+        font-size: 0.85rem;
+    }
+}
+
