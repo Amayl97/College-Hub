@@ -155,3 +155,152 @@ body{
      font-family: "Caveat", serif;
      font-size: 19px;
 }
+
+
+/* ========================= FOOTER ========================= */
+footer {
+  background-color: var(--forest);
+  color: var(--paper);
+  padding: 60px 10% 20px;
+  font-family: "Cormorant Garamond", serif;
+  margin-top: 5%;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Brand */
+.footerBrand {
+  flex: 1;
+}
+
+.footerBrand h2 {
+  font-family: "Bodoni Moda", serif;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  color: var(--paper);
+  margin-bottom: 5px;
+}
+
+.footerBrand p {
+  font-family: "Allura", cursive;
+  font-size: clamp(1.5rem, 3vw, 1.8rem);
+  color: var(--pink);
+}
+
+/* Navigation */
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.footerLinks a {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.1rem;
+  color: var(--paper);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerLinks a:hover {
+  color: var(--lime);
+}
+
+/* Description */
+.footerNote {
+  max-width: 300px;
+}
+
+.footerNote p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--beige);
+}
+
+/* Bottom */
+.footerBottom {
+  max-width: 1100px;
+  margin: 40px auto 0;
+  padding-top: 15px;
+  border-top: 1px solid var(--taupe);
+  text-align: center;
+}
+
+.footerBottom p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.95rem;
+  color: var(--beige);
+}
+
+/* ========================= TABLET ========================= */
+@media (max-width: 900px) {
+  .servicesDiv {
+    grid-template-columns: repeat(3, 120px);
+    gap: 8px;
+  }
+
+  .service {
+    width: 120px;
+    height: 125px;
+  }
+
+  .service img {
+    height: 75px;
+  }
+
+  .footerContent {
+    gap: 30px;
+  }
+}
+
+/* ========================= MOBILE ========================= */
+@media (max-width: 600px) {
+  
+  /* Footer */
+  footer {
+    padding: 50px 8% 20px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footerBrand {
+    width: 100%;
+  }
+
+  .footerLinks {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 25px;
+    width: 100%;
+  }
+
+  .footerNote {
+    max-width: 100%;
+  }
+
+  .footerBottom {
+    margin-top: 30px;
+  }
+}
+
+/* ========================= SMALL PHONES ========================= */
+@media (max-width: 380px) {
+  footer {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
