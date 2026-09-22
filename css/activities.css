@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --paper: #f6f1ec;
+  --forest: #345439;
+  --ink: #251a0d;
+  --blue: #2f78b3;
+  --Darkblue: #013f73;
+  --orange: #e25022;
+  --pink: #f1b3c4;
+  --lime: #c4c555;
+  --beige: #e5d8cb;
+  --taupe: #ac9179;
+}
