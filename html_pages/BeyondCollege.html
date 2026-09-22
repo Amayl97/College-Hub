@@ -1,11 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    beyondCollegeLink
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beyond the college resources</title>
+    <link rel="stylesheet" href="../css/beyondClg.css" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+      <!-- Bodoni Moda Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Betania+Patmos&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ+Guides&display=swap"
+    rel="stylesheet">
+
+  <!-- Allura Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allura&family=Archivo+Black&family=Betania+Patmos&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ+Guides&display=swap"
+    rel="stylesheet">
+
+  <!-- Cormorant Garamond Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allura&family=Archivo+Black&family=Betania+Patmos&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ+Guides&display=swap"
+    rel="stylesheet">
+  </head>
+  <body>
+    <section class="book">
+      <!-- Closed book -->
+      <div class="closedBook">
+        <h2 class="bookTitle">Beyond the College resources</h2>
+        <h4 class="subtitle">Things they don't tell you</h4>
+        <div class="container">
+          <!-- Department Input -->
+          <div class="dropdown">
+            <div class="titleIcon">
+              <p class="title">Choose Department</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="options">
+              <div class="inp">
+                <input type="radio" name="department" value="it" id="it" />
+                <label for="it">Information Technology</label>
+              </div>
+
+              <div class="inp">
+                <input
+                  type="radio"
+                  name="department"
+                  value="english"
+                  id="english"
+                />
+                <label for="english">English</label>
+              </div>
+
+              <div class="inp">
+                <input
+                  type="radio"
+                  name="department"
+                  value="polSci"
+                  id="polSci"
+                />
+                <label for="polSci">Political Science</label>
+              </div>
+
+              <div class="inp">
+                <input
+                  type="radio"
+                  name="department"
+                  value="islamicSt"
+                  id="islamicSt"
+                />
+                <label for="islamicSt">Islamiyat</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Year Input -->
+          <div class="dropdown disabled" id="yearDropdown">
+            <div class="titleIcon">
+              <p class="title">Select Year</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+
+            <div class="options" id="yearOptions">
+              <!-- 1st year -->
+              <div class="inp">
+                <input type="radio" name="year" value="1" id="year1" />
+                <label for="year1">1st Year</label>
+              </div>
+              <!-- 2nd year -->
+              <div class="inp">
+                <input type="radio" name="year" value="2" id="year2" />
+                <label for="year2">2nd Year</label>
+              </div>
+              <!-- 3rd year -->
+              <div class="inp">
+                <input type="radio" name="year" value="3" id="year3" />
+                <label for="year3">3rd Year</label>
+              </div>
+              <!-- 4th year -->
+              <div class="inp">
+                <input type="radio" name="year" value="4" id="year4" />
+                <label for="year4">4th Year</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="btnOpen">Open</button>
+      </div>
+
+      <!-- Page -->
+      <div class="openBook">
+        <!-- Left Page -->
+        <div class="leftPage"></div>
+        <!-- Right Page -->
+        <div class="rightPage"></div>
+      </div>
+    </section>
+
+    <script src="../js//beyondClg.js"></script>
+  </body>
 </html>

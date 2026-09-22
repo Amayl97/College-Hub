@@ -1,0 +1,586 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --paper: #f6f1ec;
+  --forest: #345439;
+  --ink: #251a0d;
+  --blue: #2f78b3;
+  --Darkblue: #013f73;
+  --orange: #e25022;
+  --pink: #f1b3c4;
+  --lime: #c4c555;
+  --beige: #e5d8cb;
+  --taupe: #ac9179;
+}
+
+
+/* =========================
+   PAGE
+========================= */
+
+body {
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.book {
+  position: relative;
+  width: min(1200px, 94%);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 60px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Creates 3D depth */
+  perspective: 1800px;
+}
+
+/* =========================
+   CLOSED BOOK / COVER
+========================= */
+
+.closedBook {
+  position: relative;
+
+  width: min(620px, 90vw);
+  min-height: 720px;
+
+  padding: 55px 50px 45px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: var(--forest);
+
+  border-radius: 8px 18px 18px 8px;
+
+  box-shadow:
+    12px 14px 0 rgba(37, 26, 13, 0.12),
+    18px 20px 35px rgba(37, 26, 13, 0.22),
+    inset -12px 0 0 rgba(0, 0, 0, 0.08),
+    inset 0 0 25px rgba(0, 0, 0, 0.12);
+
+  z-index: 2;
+
+  /* Important for book-opening animation */
+  transform-origin: left center;
+  transform: rotateY(0deg);
+
+  transition: transform 1.2s ease;
+
+  backface-visibility: hidden;
+}
+
+/* =========================
+   BOOK OPEN ANIMATION
+========================= */
+
+.book.open .closedBook {
+  transform: rotateY(-180deg);
+}
+
+/* Hide cover AFTER animation */
+.closedBook.finished {
+  visibility: hidden;
+}
+
+/* =========================
+   BOOK SPINE
+========================= */
+
+.closedBook::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 22px;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.12);
+
+  box-shadow:
+    inset -3px 0 rgba(255, 255, 255, 0.08);
+
+  pointer-events: none;
+}
+
+/* =========================
+   PAPER EDGE
+========================= */
+
+.closedBook::after {
+  content: "";
+
+  position: absolute;
+  right: -7px;
+  top: 12px;
+
+  width: 10px;
+  height: calc(100% - 24px);
+
+  background: repeating-linear-gradient(
+    to bottom,
+    #e5d8cb 0px,
+    #e5d8cb 2px,
+    #cdbbaa 3px,
+    #e5d8cb 4px
+  );
+
+  border-radius: 0 5px 5px 0;
+
+  box-shadow:
+    3px 0 4px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   COVER TITLE
+========================= */
+
+.bookTitle {
+  position: relative;
+
+  font-family: "Bodoni Moda", serif;
+  font-size: clamp(38px, 5vw, 58px);
+  font-weight: 600;
+  line-height: 1.05;
+
+  text-align: center;
+
+  color: var(--paper);
+
+  max-width: 480px;
+
+  padding: 20px 20px 10px;
+
+  letter-spacing: -1px;
+}
+
+/* =========================
+   COVER SUBTITLE
+========================= */
+
+.subtitle {
+  font-family: "Allura", cursive;
+
+  color: var(--beige);
+
+  font-size: clamp(30px, 4vw, 42px);
+  font-weight: 400;
+
+  margin-bottom: 35px;
+}
+
+/* =========================
+   DECORATIVE SYMBOL
+========================= */
+
+.closedBook .container::before {
+  content: "✦";
+
+  display: block;
+
+  color: var(--lime);
+
+  font-size: 20px;
+
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+/* =========================
+   INPUT CONTAINER
+========================= */
+
+.container {
+  width: 100%;
+  max-width: 430px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 18px;
+
+  margin: 5px auto 30px;
+}
+
+/* =========================
+   DROPDOWNS
+========================= */
+
+.dropdown {
+  position: relative;
+
+  width: 100%;
+
+  padding: 10px;
+
+  background: var(--paper);
+
+  border-radius: 18px;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+.dropdown:hover {
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.16);
+}
+
+/* =========================
+   DISABLED YEAR DROPDOWN
+========================= */
+
+.disabled {
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* =========================
+   DROPDOWN HEADER
+========================= */
+
+.titleIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 9px 12px;
+
+  border: 2px dashed var(--ink);
+  border-radius: 14px;
+}
+
+.titleIcon i {
+  font-size: 16px;
+}
+
+.title {
+  padding: 6px 12px;
+
+  font-family: "Cormorant Garamond", serif;
+  font-size: 19px;
+  font-weight: 600;
+
+  background: var(--pink);
+
+  border-radius: 15px;
+}
+
+/* =========================
+   DROPDOWN OPTIONS
+========================= */
+
+.options {
+  display: none;
+
+  position: absolute;
+
+  top: 100%;
+  left: 10px;
+
+  width: min(400px, calc(100vw - 40px));
+
+  max-height: 250px;
+
+  overflow-y: auto;
+
+  background: var(--paper);
+
+  padding: 10px;
+
+  border-radius: 15px;
+
+  z-index: 10;
+
+  box-shadow:
+    3px 2px 3px rgba(0, 0, 0, 0.111);
+}
+
+.inp {
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 20px;
+
+  padding: 9px 8px;
+
+  border-radius: 10px;
+}
+
+.inp:hover {
+  background: var(--beige);
+}
+
+.inp input {
+  margin-right: 8px;
+}
+
+/* =========================
+   OPEN BUTTON
+========================= */
+
+.btnOpen {
+  margin-top: auto;
+
+  padding: 13px 38px;
+
+  background: var(--orange);
+  color: var(--paper);
+
+  font-family: "Cormorant Garamond", serif;
+
+  font-size: 22px;
+  font-weight: 600;
+
+  border: none;
+  border-radius: 25px;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 5px 0 #b83c19,
+    0 8px 15px rgba(0, 0, 0, 0.15);
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btnOpen:hover {
+  background: var(--pink);
+  color: var(--ink);
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 7px 0 #c38d9d,
+    0 10px 18px rgba(0, 0, 0, 0.18);
+}
+
+.btnOpen:active {
+  transform: translateY(2px);
+
+  box-shadow:
+    0 2px 0 #c38d9d;
+}
+
+/* =========================
+   OPEN BOOK
+========================= */
+
+.openBook {
+  position: absolute;
+
+  width: min(1100px, 95vw);
+  height: 680px;
+
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 1;
+
+  visibility: hidden;
+
+  transform-style: preserve-3d;
+}
+
+/* Open book becomes visible when animation starts */
+
+.book.open .openBook {
+  visibility: visible;
+}
+
+/* =========================
+   RIGHT PAGE APPEARS FIRST
+========================= */
+
+.rightPage {
+  position: absolute;
+
+  top: 0;
+  right: 0;
+
+  width: 50%;
+  height: 100%;
+
+  background: #f9f2df;
+
+  border-radius: 0 15px 15px 0;
+
+  box-shadow:
+    inset 12px 0 18px rgba(0, 0, 0, 0.08),
+    5px 10px 25px rgba(0, 0, 0, 0.15);
+
+  opacity: 0;
+
+  transform-origin: left center;
+
+  backface-visibility: hidden;
+}
+
+.book.open .rightPage {
+  animation:
+    rightPageAppear 0.5s ease forwards;
+}
+
+@keyframes rightPageAppear {
+  from {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+
+/* =========================
+   LEFT PAGE
+========================= */
+
+.leftPage {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 50%;
+  height: 100%;
+
+  background: #f9f2df;
+
+  border-radius: 15px 0 0 15px;
+
+  box-shadow:
+    inset -12px 0 18px rgba(0, 0, 0, 0.08),
+    -5px 10px 25px rgba(0, 0, 0, 0.15);
+
+  opacity: 0;
+
+  transform-origin: right center;
+
+  backface-visibility: hidden;
+}
+
+/* Left page waits until cover is gone */
+
+.book.pages-ready .leftPage {
+  animation:
+    leftPageAppear 0.5s ease forwards;
+}
+
+@keyframes leftPageAppear {
+  from {
+    opacity: 0;
+    transform: rotateY(90deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+
+/* =========================
+   BOOK CENTER / SPINE
+========================= */
+
+.openBook::after {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 50%;
+
+  width: 3px;
+  height: 100%;
+
+  background: rgba(37, 26, 13, 0.15);
+
+  transform: translateX(-50%);
+
+  pointer-events: none;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+
+  .book {
+    padding: 30px 10px;
+  }
+
+  .closedBook {
+    width: min(500px, 94vw);
+
+    min-height: 650px;
+
+    padding: 45px 30px 35px;
+  }
+
+  .bookTitle {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 32px;
+  }
+
+  .openBook {
+    height: 500px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 550px) {
+
+  .closedBook {
+    min-height: 600px;
+
+    padding: 40px 22px 30px;
+  }
+
+  .bookTitle {
+    font-size: 34px;
+  }
+
+  .subtitle {
+    font-size: 28px;
+  }
+
+  .openBook {
+    height: 430px;
+  }
+}
