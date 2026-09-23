@@ -13,28 +13,40 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-      <!-- Bodoni Moda Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Betania+Patmos&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ+Guides&display=swap"
-    rel="stylesheet">
+    <!-- Bodoni Moda Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Betania+Patmos&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ+Guides&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Allura Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Allura&family=Archivo+Black&family=Betania+Patmos&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ+Guides&display=swap"
-    rel="stylesheet">
+    <!-- Allura Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Archivo+Black&family=Betania+Patmos&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ+Guides&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Cormorant Garamond Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Allura&family=Archivo+Black&family=Betania+Patmos&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ+Guides&display=swap"
-    rel="stylesheet">
+    <!-- Cormorant Garamond Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Archivo+Black&family=Betania+Patmos&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ+Guides&display=swap"
+      rel="stylesheet"
+    />
+     <!--  Caveat font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Archivo+Black&family=Betania+Patmos&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&family=Handlee&family=Playwrite+NZ+Guides&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="beyondClg">
+       <button class="btn" id="leftBtn"><i class="fa-solid fa-left-long"></i></button>
     <section class="book">
       <!-- Closed book -->
       <div class="closedBook">
@@ -124,11 +136,42 @@
       <!-- Page -->
       <div class="openBook">
         <!-- Left Page -->
-        <div class="leftPage"></div>
+        <div class="leftPage" id="leftPage">
+          <div class="content">
+           <!-- <h2 class="heading">Resources</h2> -->
+            <!-- resource 1 -->
+            <!-- <div class="res">
+              <h3>Codédex</h3>
+              <p>
+                Learn programming fundamentals through interactive,
+                beginner-friendly lessons and projects
+              </p>
+              <a href="https://www.codedex.io/" target="_blank">Explore →</a>
+            </div> -->
+          </div>
+        </div>
         <!-- Right Page -->
-        <div class="rightPage"></div>
+        <div class="rightPage" id="rightPage">
+          <div class="content">
+           <!-- <h2 class="heading">Resources</h2> -->
+            <!-- resource 3 -->
+            <!-- <div class="res">
+              <h3>Codédex</h3>
+              <p>
+                Learn programming fundamentals through interactive,
+                beginner-friendly lessons and projects
+              </p>
+              <a href="https://www.codedex.io/" target="_blank">Explore →</a>
+            </div> -->
+          </div>
+        </div>
       </div>
     </section>
+
+  
+   <button class="btn" id="rightBtn"><i class="fa-solid fa-right-long"></i></button>
+
+   </div>
 
     <script src="../js//beyondClg.js"></script>
   </body>

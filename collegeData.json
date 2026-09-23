@@ -3,34 +3,388 @@
         {
             "id": "it",
             "name": "BS Information Technology",
-            "resources": [
-                {
-                    "category":"resource",
-                    "name":"Codédex",
-                     "description":"Best platform for practicing and learning languages",
-                     "link": ""
+            "years": {
+                "1": {
+                    "resources": {
+                        "page1": [
+                            {
+                                "title": "Codedex",
+                                "description": "Learn programming fundamentals through interactive, beginner-friendly lessons and projects.",
+                                "url": "https://www.codedex.io/"
+                            },
+                            {
+                                "title": "W3Schools",
+                                "description": "Build your foundations in HTML, CSS, JavaScript, Python, and other web technologies.",
+                                "url": "https://www.w3schools.com/"
+                            },
+                            {
+                                "title": "freeCodeCamp",
+                                "description": "Practice programming and web development through structured lessons and hands-on projects.",
+                                "url": "https://www.freecodecamp.org/"
+                            },
+                            {
+                                "title": "GeeksforGeeks",
+                                "description": "Use tutorials and beginner programming exercises to strengthen your problem-solving skills.",
+                                "url": "https://www.geeksforgeeks.org/"
+                            }
+                        ],
+                        "page2": [
+                            {
+                                "title": "Git & GitHub",
+                                "description": "Learn version control early and start keeping your code and projects on GitHub.",
+                                "url": "https://docs.github.com/en/get-started"
+                            },
+                            {
+                                "title": "MDN Web Docs",
+                                "description": "Use MDN as a reliable reference for HTML, CSS, JavaScript, and web APIs.",
+                                "url": "https://developer.mozilla.org/"
+                            },
+                            {
+                                "title": "Roadmap.sh",
+                                "description": "Explore different software development paths and understand what skills come next.",
+                                "url": "https://roadmap.sh/"
+                            },
+                            {
+                                "title": "CS50",
+                                "description": "Build a strong computer science foundation through Harvard's introductory CS course.",
+                                "url": "https://cs50.harvard.edu/"
+                            }
+                        ]
+                    },
+                    "tools": [
+                        {
+                            "title": "VS Code",
+                            "description": "Your primary code editor for learning and building small projects.",
+                            "url": "https://code.visualstudio.com/"
+                        },
+                        {
+                            "title": "GitHub",
+                            "description": "Store your code, track your progress, and begin building a public portfolio.",
+                            "url": "https://github.com/"
+                        },
+                        {
+                            "title": "Figma",
+                            "description": "Learn basic UI design and turn ideas into simple interface designs.",
+                            "url": "https://www.figma.com/"
+                        },
+                        {
+                            "title": "Replit",
+                            "description": "Quickly experiment with code in the browser without setting up a local environment.",
+                            "url": "https://replit.com/"
+                        }
+                    ],
+                    "mustHave": [
+                        {
+                            "title": "GitHub Profile",
+                            "description": "Create a GitHub account and start building a history of your own work."
+                        },
+                        {
+                            "title": "3–5 Small Projects",
+                            "description": "Build small projects instead of only completing tutorials. Focus on understanding how they work."
+                        },
+                        {
+                            "title": "One Programming Language",
+                            "description": "Become comfortable with at least one language before trying to learn everything."
+                        },
+                        {
+                            "title": "Basic Git",
+                            "description": "Know how to clone, add, commit, push, pull, branch, and read Git history."
+                        }
+                    ]
                 },
-                {
-                    "category":"tools",
-                    "name":"Github",
-                     "description":"Best platform for practicing and learning languages",
-                     "link": ""
+                "2": {
+                    "resources": {
+                        "page1": [
+                            {
+                                "title": "GeeksforGeeks",
+                                "description": "Strengthen data structures, algorithms, programming concepts, and computer science fundamentals.",
+                                "url": "https://www.geeksforgeeks.org/"
+                            },
+                            {
+                                "title": "LeetCode",
+                                "description": "Start practicing algorithmic problem solving and gradually become comfortable with coding interviews.",
+                                "url": "https://leetcode.com/"
+                            },
+                            {
+                                "title": "The Odin Project",
+                                "description": "Follow a practical, project-based path for full-stack web development.",
+                                "url": "https://www.theodinproject.com/"
+                            },
+                            {
+                                "title": "Java Documentation",
+                                "description": "Learn to read official documentation instead of relying only on tutorials.",
+                                "url": "https://docs.oracle.com/en/java/"
+                            }
+                        ],
+                        "page2": [
+                            {
+                                "title": "SQLBolt",
+                                "description": "Practice SQL interactively and understand relational database fundamentals.",
+                                "url": "https://sqlbolt.com/"
+                            },
+                            {
+                                "title": "GitHub Skills",
+                                "description": "Practice GitHub workflows through interactive exercises.",
+                                "url": "https://skills.github.com/"
+                            },
+                            {
+                                "title": "MDN Web Docs",
+                                "description": "Go beyond beginner tutorials and use MDN to understand web technologies properly.",
+                                "url": "https://developer.mozilla.org/"
+                            },
+                            {
+                                "title": "Coursera",
+                                "description": "Explore structured university-level courses when you need deeper understanding of a subject.",
+                                "url": "https://www.coursera.org/"
+                            }
+                        ]
+                    },
+                    "tools": [
+                        {
+                            "title": "IntelliJ IDEA",
+                            "description": "A powerful IDE for Java and backend development.",
+                            "url": "https://www.jetbrains.com/idea/"
+                        },
+                        {
+                            "title": "MySQL",
+                            "description": "Practice relational database design, SQL queries, and database-driven applications.",
+                            "url": "https://www.mysql.com/"
+                        },
+                        {
+                            "title": "Postman",
+                            "description": "Test APIs and understand how frontend and backend applications communicate.",
+                            "url": "https://www.postman.com/"
+                        },
+                        {
+                            "title": "Docker",
+                            "description": "Start learning how applications and their dependencies can be packaged and run consistently.",
+                            "url": "https://www.docker.com/"
+                        }
+                    ],
+                    "mustHave": [
+                        {
+                            "title": "Data Structures & Algorithms",
+                            "description": "Understand arrays, linked lists, stacks, queues, trees, graphs, searching, sorting, and basic complexity analysis."
+                        },
+                        {
+                            "title": "Database Skills",
+                            "description": "Know SQL, relationships, normalization, CRUD operations, joins, indexes, and basic database design."
+                        },
+                        {
+                            "title": "2–3 Real Projects",
+                            "description": "Build projects that solve an actual problem and require you to make technical decisions."
+                        },
+                        {
+                            "title": "Portfolio GitHub",
+                            "description": "Keep repositories organized with useful README files, meaningful commits, and working projects."
+                        },
+                        {
+                            "title": "First Internship or Freelance Experience",
+                            "description": "Try to gain experience working on software for someone other than yourself."
+                        }
+                    ]
                 },
-                {
-                    "category":"must have",
-                    "name":"Portfolio",
-                     "description":"Best platform for practicing and learning languages",
-                     "link": ""
+                "3": {
+                    "resources": {
+                        "page1": [
+                            {
+                                "title": "LeetCode",
+                                "description": "Develop stronger problem-solving skills and begin preparing seriously for technical interviews.",
+                                "url": "https://leetcode.com/"
+                            },
+                            {
+                                "title": "System Design Primer",
+                                "description": "Get an introduction to system design concepts and learn how larger software systems are structured.",
+                                "url": "https://github.com/donnemartin/system-design-primer"
+                            },
+                            {
+                                "title": "roadmap.sh",
+                                "description": "Use developer roadmaps to identify gaps in your chosen specialization.",
+                                "url": "https://roadmap.sh/"
+                            },
+                            {
+                                "title": "AWS Skill Builder",
+                                "description": "Learn the fundamentals of cloud computing and explore modern deployment concepts.",
+                                "url": "https://skillbuilder.aws/"
+                            }
+                        ],
+                        "page2": [
+                            {
+                                "title": "Spring",
+                                "description": "Learn how modern Java backend applications are structured using the Spring ecosystem.",
+                                "url": "https://spring.io/"
+                            },
+                            {
+                                "title": "Android Developers",
+                                "description": "Build and understand production-style Android applications using official documentation.",
+                                "url": "https://developer.android.com/"
+                            },
+                            {
+                                "title": "freeCodeCamp",
+                                "description": "Use projects and certifications to strengthen full-stack development skills.",
+                                "url": "https://www.freecodecamp.org/"
+                            },
+                            {
+                                "title": "Hugging Face",
+                                "description": "Explore modern AI tools and models if you want to integrate AI into software projects.",
+                                "url": "https://huggingface.co/"
+                            }
+                        ]
+                    },
+                    "tools": [
+                        {
+                            "title": "Postman",
+                            "description": "Design, test, document, and debug APIs.",
+                            "url": "https://www.postman.com/"
+                        },
+                        {
+                            "title": "Docker",
+                            "description": "Containerize applications and learn the basics of deployment environments.",
+                            "url": "https://www.docker.com/"
+                        },
+                        {
+                            "title": "GitHub Actions",
+                            "description": "Learn the basics of CI/CD by automating testing and deployment workflows.",
+                            "url": "https://github.com/features/actions"
+                        },
+                        {
+                            "title": "Firebase",
+                            "description": "Explore authentication, databases, hosting, analytics, and other backend services.",
+                            "url": "https://firebase.google.com/"
+                        }
+                    ],
+                    "mustHave": [
+                        {
+                            "title": "Specialization",
+                            "description": "Choose a direction such as frontend, backend, mobile, cloud, cybersecurity, data, or another software engineering path."
+                        },
+                        {
+                            "title": "Strong Portfolio Project",
+                            "description": "Build at least one substantial project that demonstrates architecture, problem solving, and real engineering decisions."
+                        },
+                        {
+                            "title": "Internship Experience",
+                            "description": "Try to complete at least one meaningful internship, open-source contribution, freelance project, or team software project."
+                        },
+                        {
+                            "title": "Interview Preparation",
+                            "description": "Practice data structures, algorithms, SQL, OOP, operating systems, networking, databases, and project discussions."
+                        },
+                        {
+                            "title": "Technical Communication",
+                            "description": "Be able to explain your projects, technical decisions, bugs, trade-offs, and lessons clearly."
+                        }
+                    ]
+                },
+                "4": {
+                    "resources": {
+                        "page1": [
+                            {
+                                "title": "LeetCode",
+                                "description": "Maintain consistent interview practice and focus on understanding patterns rather than memorizing solutions.",
+                                "url": "https://leetcode.com/"
+                            },
+                            {
+                                "title": "NeetCode",
+                                "description": "Use structured problem-solving patterns for technical interview preparation.",
+                                "url": "https://neetcode.io/"
+                            },
+                            {
+                                "title": "System Design Primer",
+                                "description": "Study scalability, caching, databases, APIs, load balancing, and other system design fundamentals.",
+                                "url": "https://github.com/donnemartin/system-design-primer"
+                            },
+                            {
+                                "title": "GitHub",
+                                "description": "Publish polished projects and contribute to open-source repositories.",
+                                "url": "https://github.com/"
+                            }
+                        ],
+                        "page2": [
+                            {
+                                "title": "LinkedIn",
+                                "description": "Build a professional profile and discover internships, graduate roles, and engineering opportunities.",
+                                "url": "https://www.linkedin.com/"
+                            },
+                            {
+                                "title": "Wellfound",
+                                "description": "Explore software engineering opportunities at startups and growing technology companies.",
+                                "url": "https://wellfound.com/"
+                            },
+                            {
+                                "title": "HackerRank",
+                                "description": "Practice coding, SQL, and interview-style technical assessments.",
+                                "url": "https://www.hackerrank.com/"
+                            },
+                            {
+                                "title": "AWS Skill Builder",
+                                "description": "Strengthen cloud fundamentals and prepare for modern software engineering environments.",
+                                "url": "https://skillbuilder.aws/"
+                            }
+                        ]
+                    },
+                    "tools": [
+                        {
+                            "title": "GitHub",
+                            "description": "Use GitHub as your public engineering portfolio and collaboration platform.",
+                            "url": "https://github.com/"
+                        },
+                        {
+                            "title": "Docker",
+                            "description": "Package and run your applications consistently across development and deployment environments.",
+                            "url": "https://www.docker.com/"
+                        },
+                        {
+                            "title": "Postman",
+                            "description": "Test and document APIs for your projects and interview preparation.",
+                            "url": "https://www.postman.com/"
+                        },
+                        {
+                            "title": "Figma",
+                            "description": "Create clean interface designs and communicate product ideas before implementation.",
+                            "url": "https://www.figma.com/"
+                        }
+                    ],
+                    "mustHave": [
+                        {
+                            "title": "Final-Year Project",
+                            "description": "Build a substantial project that demonstrates your ability to take a software product from idea to implementation."
+                        },
+                        {
+                            "title": "Strong GitHub Profile",
+                            "description": "Have several meaningful repositories with clean code, documentation, screenshots, and clear project descriptions."
+                        },
+                        {
+                            "title": "Resume",
+                            "description": "Create a concise, technically focused resume tailored to software engineering roles."
+                        },
+                        {
+                            "title": "Interview Readiness",
+                            "description": "Be prepared for coding, CS fundamentals, behavioral, project, and basic system-design discussions."
+                        },
+                        {
+                            "title": "Professional Network",
+                            "description": "Connect with developers, alumni, recruiters, mentors, and communities related to your field."
+                        },
+                        {
+                            "title": "Projects to Talk About",
+                            "description": "Have at least 2–3 projects you can explain deeply, including your architecture, decisions, challenges, bugs, and lessons."
+                        },
+                        {
+                            "title": "Continuous Learning Habit",
+                            "description": "Know how to independently read documentation, investigate problems, and learn unfamiliar technologies."
+                        }
+                    ]
                 }
-            ],
+            },
             "subjects": [
                 {
                     "id": "daa",
                     "name": "DAA",
                     "outline": {
-                        "title":"DAA Outline",
-                        "description":"",
-                        "file":""
+                        "title": "DAA Outline",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
@@ -74,7 +428,7 @@
                             "description": "This is the previous paper of DAA computer science fall 2022",
                             "file": "../data/daa/pastPapers/DAA PP 2.jpeg"
                         },
-                          {
+                        {
                             "title": "DAA Spring 2024 Paper",
                             "description": "This is the previous paper of DAA of spring 2024.",
                             "file": "../data/daa/pastPapers/DAA PP 3.jpeg"
@@ -85,15 +439,14 @@
                             "file": "../data/daa/pastPapers/DAA PP 4.jpeg"
                         }
                     ]
-                   
                 },
                 {
                     "id": "is",
                     "name": "Information Security",
-                     "outline": {
-                        "title":"Information Security Outline",
-                        "description":"",
-                        "file":""
+                    "outline": {
+                        "title": "Information Security Outline",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
@@ -127,10 +480,10 @@
                 {
                     "id": "os",
                     "name": "Operating System",
-                     "outline": {
-                        "title":"OS Outline",
-                        "description":"",
-                        "file":""
+                    "outline": {
+                        "title": "OS Outline",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
@@ -164,10 +517,10 @@
                 {
                     "id": "sre",
                     "name": "SRE",
-                     "outline": {
-                        "title":"SRE Outline",
-                        "description":"",
-                        "file":""
+                    "outline": {
+                        "title": "SRE Outline",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
@@ -201,10 +554,10 @@
                 {
                     "id": "webTech",
                     "name": "Web Technologies",
-                     "outline": {
-                        "title":"Web Technologies Outline",
-                        "description":"",
-                        "file":""
+                    "outline": {
+                        "title": "Web Technologies Outline",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
@@ -229,11 +582,8 @@
                             "description": "These slides are provided by our college professor.",
                             "file": "../data/webTech/slides/web world wide defination introduction.pptx"
                         }
-
                     ],
-                    "labMaterial": [
-                      
-                    ],
+                    "labMaterial": [],
                     "pastPapers": [
                         {
                             "title": "",
@@ -245,10 +595,10 @@
                 {
                     "id": "enterprise",
                     "name": "Enterprise System",
-                     "outline": {
-                        "title":"Enterprise Outline",
-                        "description":"",
-                        "file":""
+                    "outline": {
+                        "title": "Enterprise Outline",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
@@ -263,22 +613,22 @@
                             "description": "These slides are provided by our lecturer.",
                             "file": "../data/enterprise/slides/ADO_NET_Introduction.pptx"
                         },
-                          {
+                        {
                             "title": "C# Delegates, Boxing, and Unboxing - Slides",
                             "description": "These slides are provided by our lecturer.",
                             "file": "../data/enterprise/slides/CSharp_Delegates_Boxing_Unboxing.pptx"
                         },
-                             {
+                        {
                             "title": "C# Fundamentals - Slides",
                             "description": "These slides are provided by our lecturer.",
                             "file": "../data/enterprise/slides/CSharp_Fundamentals.pptx"
                         },
-                             {
+                        {
                             "title": "DOM in JavaScript - Slides",
                             "description": "These slides are provided by our lecturer.",
                             "file": "../data/enterprise/slides/DOM_in_JavaScript.pptx"
                         },
-                             {
+                        {
                             "title": "Dot NET - Slides",
                             "description": "These slides are provided by our lecturer.",
                             "file": "../data/enterprise/slides/dotnet_enterprise.pptx"
@@ -363,9 +713,9 @@
                     "id": "pom",
                     "name": "Principles of Management",
                     "outline": {
-                        "title":"Principles of Management Outline",
-                        "description":"",
-                        "file":""
+                        "title": "Principles of Management Outline",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
@@ -373,47 +723,47 @@
                             "description": "These notes are provided by our college professor.",
                             "file": "../data/pom/notes/Ethics and social respo.pdf"
                         },
-                         {
+                        {
                             "title": "Leadership and Influence Process",
                             "description": "These notes are provided by our college professor.",
                             "file": "../data/pom/notes/Leadership and Influence process.pdf"
                         },
-                         {
+                        {
                             "title": "Management & Managers",
                             "description": "These notes are provided by our college professor.",
                             "file": "../data/pom/notes/Management & Managers.pdf"
                         },
-                         {
+                        {
                             "title": "Managing Change & Innovation",
                             "description": "These notes are provided by our college professor.",
                             "file": "../data/pom/notes/Managing Change and Innovation.pdf"
                         },
-                         {
+                        {
                             "title": "Planning & Decision Making",
                             "description": "These notes are provided by our college professor.",
                             "file": "../data/pom/notes/Planning and Decision Making.pdf"
                         },
-                         {
+                        {
                             "title": "Principle of Management Notes (Short and Long Questions)",
                             "description": "This pdf has questions that university can give in exam. These are optional as these are not included in outline but are often asked in exam.",
                             "file": "../data/pom/notes/Principles of Management Notes.pdf"
                         },
-                         {
+                        {
                             "title": "Roles by Mintzber",
                             "description": "These notes are provided by our college professor.",
                             "file": "../data/pom/notes/Roles by Mintzber.pdf"
                         },
-                         {
+                        {
                             "title": "The Controlling Process",
                             "description": "These notes are provided by our college professor.",
                             "file": "../data/pom/notes/The Controlling Process.pdf"
                         },
-                         {
+                        {
                             "title": "The Environment & Culture of Management",
                             "description": "These notes are provided by our college professor.",
                             "file": "../data/pom/notes/The Environment and Culture of Management.pdf"
                         },
-                         {
+                        {
                             "title": "The Organizing Process",
                             "description": "These notes are provided by our college professor.",
                             "file": "../data/pom/notes/The Organizing Process.pdf"
@@ -455,17 +805,17 @@
                             "description": "These notes are provided by our College professor.",
                             "file": "../data/mad/notes/1- introToActivity.pdf"
                         },
-                          {
+                        {
                             "title": "Android Activity Part 1",
                             "description": "These notes are provided by our College professor.",
                             "file": "../data/mad/notes/android part 1.pdf"
                         },
-                          {
+                        {
                             "title": "Android Activity Part 2",
                             "description": "These notes are provided by our College professor.",
                             "file": "../data/mad/notes/part 2.pdf"
                         },
-                          {
+                        {
                             "title": "Android Activity Part 3",
                             "description": "These notes are provided by our College professor.",
                             "file": "../data/mad/notes/part 3.pdf"
@@ -534,42 +884,42 @@
                             "description": "These slides are provided by our college professor.",
                             "file": "../data/sna/slides/bash shell scripting.ppt"
                         },
-                          {
+                        {
                             "title": "Boot - Slides",
                             "description": "These slides are provided by our college professor.",
                             "file": "../data/sna/slides/boot.pptx"
                         },
-                          {
+                        {
                             "title": "Comparative Analysis of Most Demanded OS - Slides",
                             "description": "These slides are provided by our college professor.",
                             "file": "../data/sna/slides/Comparative Analysis of most Demanded OS.pptx"
                         },
-                          {
+                        {
                             "title": "Configuring Local Services and Managing Basic Issues in a System - Slides",
                             "description": "These slides are provided by our college professor.",
                             "file": "../data/sna/slides/Configuring Local services and managing basic system issues.pptx"
                         },
-                          {
+                        {
                             "title": "IP Tables - Slides",
                             "description": "These slides are provided by our college professor.",
                             "file": "../data/sna/slides/IP Tables.pptx"
                         },
-                          {
+                        {
                             "title": "Lecture 1 of SNA - Slides",
                             "description": "These slides are provided by our college professor.",
                             "file": "../data/sna/slides/Lecture 1.pptx"
                         },
-                          {
+                        {
                             "title": "Reliable & Server Cost - Slides",
                             "description": "These slides are provided by our college professor.",
                             "file": "../data/sna/slides/Reliable+sever cost.pptx"
                         },
-                          {
+                        {
                             "title": "Server Environment - Slides",
                             "description": "These slides are provided by our college professor.",
                             "file": "../data/sna/slides/Server Environment.pptx"
                         },
-                          {
+                        {
                             "title": "User and Groups Administrator - Slides",
                             "description": "These slides are provided by our college professor.",
                             "file": "../data/sna/slides/userandgroupsadministrator-171201172114.pptx"
@@ -581,12 +931,12 @@
                             "description": "These are provided by our College Professor.",
                             "file": "../data/sna/labMaterial/RHL Installation.pptx"
                         },
-                          {
+                        {
                             "title": "SNA Lab Manual",
                             "description": "These are provided by our College Seniors.",
                             "file": "../data/sna/labMaterial/SNA Lab Manual.pdf"
                         },
-                          {
+                        {
                             "title": "SNA Lab Viva Questions",
                             "description": "These are provided by our College Seniors.",
                             "file": "../data/sna/labMaterial/SNA Lab Viva Questions.pdf"
@@ -603,10 +953,10 @@
                 {
                     "id": "ai",
                     "name": "Artificial Intelligence",
-                     "outline": {
-                        "title":"AI Outline",
-                        "description":"",
-                        "file":""
+                    "outline": {
+                        "title": "AI Outline",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
