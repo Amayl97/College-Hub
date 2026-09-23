@@ -2,9 +2,6 @@ const leftBtn = document.getElementById("leftBtn")
 const rightBtn = document.getElementById("rightBtn")
 const leftPage = document.getElementById("leftPage")
 const rightPage = document.getElementById("rightPage")
-const leftContent = leftPage.querySelector(".content")
-const rightContent = rightPage.querySelector(".content")
-
 
 let currentSpread = 0;
 let selectedData = null;
@@ -94,37 +91,6 @@ yearRadios.forEach((radio) => {
 
 openButton.addEventListener("click", () => {
 
-  const selectedDepartment = document.querySelector(
-    'input[name="department"]:checked'
-  );
-
-  const selectedYear = document.querySelector(
-    'input[name="year"]:checked'
-  );
-
-  // Don't open unless both are selected
-  if (!selectedDepartment || !selectedYear) {
-    alert("Please select a department and year.");
-    return;
-  }
-
-  const department = selectedDepartment.value;
-  const year = selectedYear.value;
-
-  // Find the selected department
-  const departmentData = collegeData.departments.find(
-    dept => dept.id === department
-  );
-
-  // Get the selected year
-  selectedData = departmentData.years[year];
-
-  // Start from the first spread
-  currentSpread = 0;
-
-  // Display Resources pages
-  renderSpread();
-
   // Open the book
   book.classList.add("open");
 
@@ -177,13 +143,11 @@ function selectDepartment(radio) {
   title.textContent = label.textContent;
   
  
-
   // Find year dropdown
   const yearDropdown = document.getElementById("yearDropdown");
 
   const yearTitle = yearDropdown.querySelector(".title");
 
-  selectedDepartment = radio.value;
   // Reset year
   yearTitle.textContent = "Select Year";
   
@@ -210,91 +174,14 @@ function selectYear(radio) {
 
   // Change year dropdown text
   title.textContent = label.textContent;
-  selectedYear = radio.value;
+ 
 
 }
 
-// For displaying resources on the pages.
-function createResourcesPage(resources) {
-  return resources.map(resource => `
-    <div class="res">
-      <h3>${resource.title}</h3>
-
-      <p>
-        ${resource.description}
-      </p>
-
-      <a href="${resource.url}" target="_blank">
-        Explore →
-      </a>
-    </div>
-  `).join("");
-}
-
-// For displaying tools page
-function createToolsPage(tools) {
-  return tools.map(tool => `
-    <div class="res">
-      <h3>${tool.title}</h3>
-
-      <p>
-        ${tool.description}
-      </p>
-
-      <a href="${tool.url}" target="_blank">
-        Explore →
-      </a>
-    </div>
-  `).join("");
-}
 
 
-// For displaying must have resources page
-function createMusthavePage(mustHave) {
-  return mustHave.map(item => `
-    <div class="res">
-      <h3>${item.title}</h3>
 
-      <p>
-        ${item.description}
-      </p>
 
-      <a href="${item.url}" target="_blank">
-        Explore →
-      </a>
-    </div>
-  `).join("");
-
-}
-
-// For creating of new pages
-function renderSpread() {
-
-  if (currentSpread === 0) {
-
-    leftContent.innerHTML = `
-      <h2 class="heading">Resources</h2>
-      ${createResourcesPage(selectedData.resources.page1)}
-    `;
-
-    rightContent.innerHTML = `
-      <h2 class="heading">Resources</h2>
-      ${createResourcesPage(selectedData.resources.page2)}
-    `;
-
-  } else if (currentSpread === 1) {
-
-    leftContent.innerHTML = `
-      <h2 class="heading">Tools</h2>
-      ${createToolsPage(selectedData.tools)}
-    `;
-
-    rightContent.innerHTML = `
-      <h2 class="heading">Must Have</h2>
-      ${createMusthavePage(selectedData.mustHave)}
-    `;
-  }
-}
 
 leftBtn.addEventListener("click", () => {
   console.log("left")
