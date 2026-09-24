@@ -5,8 +5,8 @@
             "name": "BS Information Technology",
             "years": {
                 "1": {
-                    "resources": {
-                        "page1": [
+                    "resources": [
+               
                             {
                                 "title": "Codedex",
                                 "description": "Learn programming fundamentals through interactive, beginner-friendly lessons and projects.",
@@ -26,9 +26,7 @@
                                 "title": "GeeksforGeeks",
                                 "description": "Use tutorials and beginner programming exercises to strengthen your problem-solving skills.",
                                 "url": "https://www.geeksforgeeks.org/"
-                            }
-                        ],
-                        "page2": [
+                            },
                             {
                                 "title": "Git & GitHub",
                                 "description": "Learn version control early and start keeping your code and projects on GitHub.",
@@ -49,9 +47,9 @@
                                 "description": "Build a strong computer science foundation through Harvard's introductory CS course.",
                                 "url": "https://cs50.harvard.edu/"
                             }
-                        ]
-                    },
+                    ],
                     "tools": [
+                       
                         {
                             "title": "VS Code",
                             "description": "Your primary code editor for learning and building small projects.",
@@ -93,8 +91,8 @@
                     ]
                 },
                 "2": {
-                    "resources": {
-                        "page1": [
+                    "resources": [
+                      
                             {
                                 "title": "GeeksforGeeks",
                                 "description": "Strengthen data structures, algorithms, programming concepts, and computer science fundamentals.",
@@ -114,9 +112,7 @@
                                 "title": "Java Documentation",
                                 "description": "Learn to read official documentation instead of relying only on tutorials.",
                                 "url": "https://docs.oracle.com/en/java/"
-                            }
-                        ],
-                        "page2": [
+                            },
                             {
                                 "title": "SQLBolt",
                                 "description": "Practice SQL interactively and understand relational database fundamentals.",
@@ -137,8 +133,7 @@
                                 "description": "Explore structured university-level courses when you need deeper understanding of a subject.",
                                 "url": "https://www.coursera.org/"
                             }
-                        ]
-                    },
+                        ],
                     "tools": [
                         {
                             "title": "IntelliJ IDEA",
@@ -185,8 +180,7 @@
                     ]
                 },
                 "3": {
-                    "resources": {
-                        "page1": [
+                    "resources": [
                             {
                                 "title": "LeetCode",
                                 "description": "Develop stronger problem-solving skills and begin preparing seriously for technical interviews.",
@@ -206,9 +200,7 @@
                                 "title": "AWS Skill Builder",
                                 "description": "Learn the fundamentals of cloud computing and explore modern deployment concepts.",
                                 "url": "https://skillbuilder.aws/"
-                            }
-                        ],
-                        "page2": [
+                            },
                             {
                                 "title": "Spring",
                                 "description": "Learn how modern Java backend applications are structured using the Spring ecosystem.",
@@ -229,8 +221,7 @@
                                 "description": "Explore modern AI tools and models if you want to integrate AI into software projects.",
                                 "url": "https://huggingface.co/"
                             }
-                        ]
-                    },
+                        ],
                     "tools": [
                         {
                             "title": "Postman",
@@ -277,8 +268,7 @@
                     ]
                 },
                 "4": {
-                    "resources": {
-                        "page1": [
+                    "resources": [
                             {
                                 "title": "LeetCode",
                                 "description": "Maintain consistent interview practice and focus on understanding patterns rather than memorizing solutions.",
@@ -298,9 +288,7 @@
                                 "title": "GitHub",
                                 "description": "Publish polished projects and contribute to open-source repositories.",
                                 "url": "https://github.com/"
-                            }
-                        ],
-                        "page2": [
+                            },
                             {
                                 "title": "LinkedIn",
                                 "description": "Build a professional profile and discover internships, graduate roles, and engineering opportunities.",
@@ -321,8 +309,7 @@
                                 "description": "Strengthen cloud fundamentals and prepare for modern software engineering environments.",
                                 "url": "https://skillbuilder.aws/"
                             }
-                        ]
-                    },
+                        ],
                     "tools": [
                         {
                             "title": "GitHub",

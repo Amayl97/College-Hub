@@ -1004,3 +1004,92 @@ body {
     height: 50px;
   }
 }
+
+/* =========================
+   PAGE TURN ANIMATION
+========================= */
+/* =========================
+   PAGE CHANGE ANIMATION
+========================= */
+
+.leftPage.pageChanging,
+.rightPage.pageChanging {
+  animation: pageChange 0.45s ease;
+}
+
+@keyframes pageChange {
+  0% {
+    opacity: 1;
+    transform: translateX(0) rotateY(0deg);
+  }
+
+  45% {
+    opacity: 0;
+    transform: translateX(-20px) rotateY(-5deg);
+  }
+
+  55% {
+    opacity: 0;
+    transform: translateX(20px) rotateY(5deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotateY(0deg);
+  }
+}
+
+.rightPage.pageChanging {
+  animation-name: pageChangeRight;
+}
+
+@keyframes pageChangeRight {
+  0% {
+    opacity: 1;
+    transform: translateX(0) rotateY(0deg);
+  }
+
+  45% {
+    opacity: 0;
+    transform: translateX(20px) rotateY(5deg);
+  }
+
+  55% {
+    opacity: 0;
+    transform: translateX(-20px) rotateY(-5deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotateY(0deg);
+  }
+}
+
+
+.emptyPage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.emptyPage h2 {
+  font-family: "Bodoni Moda", serif;
+  margin-bottom: 15px;
+}
+
+.emptyPage p {
+  max-width: 300px;
+  line-height: 1.6;
+}
+
+.book.open .closedBook {
+    transform: rotateY(-180deg);
+}
+
+.closedBook.finished {
+    visibility: hidden;
+}
