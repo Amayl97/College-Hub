@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --paper: #f6f1ec;
+  --forest: #345439;
+  --ink: #251a0d;
+  --blue: #2f78b3;
+  --Darkblue: #013f73;
+  --orange: #e25022;
+  --pink: #f1b3c4;
+  --lime: #c4c555;
+  --beige: #e5d8cb;
+  --taupe: #ac9179;
+}
+
+.rant-page {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background:
+    radial-gradient(
+      circle at 15% 20%,
+      rgba(229, 216, 203, 0.8) 0,
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 85% 75%,
+      rgba(196, 197, 85, 0.12) 0,
+      transparent 25%
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(37, 26, 13, 0.025) 0px,
+      rgba(37, 26, 13, 0.025) 1px,
+      transparent 1px,
+      transparent 5px
+    ),
+    #f3eadc;
+}
+
+
+/* Paper */
+
+.rant-paper {
+  position: relative;
+  width: 90%;
+  max-width: 550px;
+  min-height: 600px;
+  padding: 55px 45px 45px;
+
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(37, 26, 13, 0.018) 0px,
+      rgba(37, 26, 13, 0.018) 1px,
+      transparent 1px,
+      transparent 5px
+    ),
+    #faf5eb;
+
+  box-shadow:
+    4px 6px 12px rgba(37, 26, 13, 0.15),
+    10px 15px 25px rgba(37, 26, 13, 0.08);
+
+  transform: rotate(-1deg);
+}
+
+
+/* Little paper edge */
+
+.rant-paper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  border: 1px solid rgba(37, 26, 13, 0.12);
+
+  pointer-events: none;
+}
+
+
+/* Tape */
+
+.rant-paper::before {
+  content: "";
+  position: absolute;
+
+  width: 90px;
+  height: 22px;
+
+  top: -10px;
+  left: 50%;
+
+  transform: translateX(-50%) rotate(-2deg);
+
+  background: rgba(241, 179, 196, 0.8);
+
+  box-shadow:
+    0 2px 4px rgba(37, 26, 13, 0.1);
+}
+
+
+/* Writing state */
+
+.rant-writing {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.rant-writing h2,
+.rant-ready h2,
+.rant-finished h2 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--forest);
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+
+.rant-subtitle {
+  font-family: "Caveat", cursive;
+  font-size: 22px;
+  color: var(--taupe);
+  margin-bottom: 25px;
+}
+
+
+/* Text area */
+
+.rant-input {
+  width: 100%;
+  min-height: 360px;
+
+  padding: 20px;
+
+  resize: vertical;
+
+  border: none;
+  outline: none;
+
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 31px,
+      rgba(52, 84, 57, 0.15) 32px
+    );
+
+  font-family: "Caveat", cursive;
+  font-size: 22px;
+  line-height: 32px;
+
+  color: var(--ink);
+}
+
+
+.rant-input::placeholder {
+  color: var(--taupe);
+  opacity: 0.7;
+}
+
+
+/* Button */
+
+.done-btn,
+.fly-btn,
+.again-btn {
+  margin-top: 25px;
+
+  padding: 10px 24px;
+
+  border: 2px solid var(--forest);
+  background: var(--forest);
+
+  color: var(--paper);
+
+  font-family: "Bodoni Moda", serif;
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+
+.done-btn:hover,
+.fly-btn:hover,
+.again-btn:hover {
+  transform: translateY(-2px) rotate(-1deg);
+  background: transparent;
+  color: var(--forest);
+}
+
+
+/* Ready state */
+
+.rant-ready,
+.rant-finished {
+  position: absolute;
+  inset: 0;
+
+  display: none;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 45px;
+}
+
+
+.rant-ready p,
+.rant-finished p {
+  font-family: "Caveat", cursive;
+  font-size: 23px;
+  color: var(--taupe);
+}
+
+
+/* Burn button */
+
+.fly-btn {
+  border-color: var(--orange);
+  background: var(--orange);
+}
+
+.fly-btn:hover {
+  color: var(--orange);
+  background: transparent;
+}
+
+
+/* Small privacy message */
+
+.rant-ready small {
+  margin-top: 15px;
+
+  font-family: "Caveat", cursive;
+  font-size: 17px;
+
+  color: var(--taupe);
+}
+
+
+/* Finished state */
+
+.rant-finished h2 {
+  color: var(--orange);
+}
+
+.again-btn {
+  margin-top: 25px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .rant-page {
+    padding: 25px 15px;
+  }
+
+  .rant-paper {
+    width: 95%;
+    min-height: 550px;
+    padding: 45px 25px 35px;
+  }
+
+  .rant-writing h2,
+  .rant-ready h2,
+  .rant-finished h2 {
+    font-size: 27px;
+  }
+
+  .rant-input {
+    min-height: 320px;
+    font-size: 20px;
+  }
+
+}
+
+
+
+/* =========================
+   PAPER FLIES AWAY
+========================= */
+
+.rant-paper.flying-away {
+  animation: flyAway 1.4s ease-in forwards;
+}
+
+
+/* Paper flies left, rotates, shrinks, and fades */
+
+@keyframes flyAway {
+
+  0% {
+    transform: rotate(-1deg) translateX(0) scale(1);
+    opacity: 1;
+  }
+
+  20% {
+    transform: rotate(-4deg) translateX(-20px) scale(1.01);
+    opacity: 1;
+  }
+
+  45% {
+    transform: rotate(5deg) translateX(-120px) scale(0.98);
+    opacity: 0.95;
+  }
+
+  70% {
+    transform: rotate(-8deg) translateX(-400px) scale(0.9);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: rotate(-18deg) translateX(-120vw) scale(0.7);
+    opacity: 0;
+  }
+
+}
+
+/* ========================= FOOTER ========================= */
+footer {
+  background-color: var(--forest);
+  color: var(--paper);
+  padding: 60px 10% 20px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Brand */
+.footerBrand {
+  flex: 1;
+}
+
+.footerBrand h2 {
+  font-family: "Bodoni Moda", serif;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  color: var(--paper);
+  margin-bottom: 5px;
+}
+
+.footerBrand p {
+  font-family: "Allura", cursive;
+  font-size: clamp(1.5rem, 3vw, 1.8rem);
+  color: var(--pink);
+}
+
+/* Navigation */
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.footerLinks a {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.1rem;
+  color: var(--paper);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerLinks a:hover {
+  color: var(--lime);
+}
+
+/* Description */
+.footerNote {
+  max-width: 300px;
+}
+
+.footerNote p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--beige);
+}
+
+/* Bottom */
+.footerBottom {
+  max-width: 1100px;
+  margin: 40px auto 0;
+  padding-top: 15px;
+  border-top: 1px solid var(--taupe);
+  text-align: center;
+}
+
+.footerBottom p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.95rem;
+  color: var(--beige);
+}
+
+/* ========================= TABLET ========================= */
+@media (max-width: 900px) {
+  .footerContent {
+    gap: 30px;
+  }
+}
+
+/* ========================= MOBILE ========================= */
+@media (max-width: 600px) {
+  /* Footer */
+  footer {
+    padding: 50px 8% 20px;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footerBrand {
+    width: 100%;
+  }
+
+  .footerLinks {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 25px;
+    width: 100%;
+  }
+
+  .footerNote {
+    max-width: 100%;
+  }
+
+  .footerBottom {
+    margin-top: 30px;
+  }
+}
+
+/* ========================= SMALL PHONES ========================= */
+@media (max-width: 380px) {
+
+  footer {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
