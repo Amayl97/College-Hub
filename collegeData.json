@@ -369,30 +369,18 @@
                     "id": "daa",
                     "name": "DAA",
                     "outline": {
-                        "title": "DAA Outline",
+                        "title": "",
                         "description": "",
                         "file": ""
                     },
                     "notes": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                      
                     ],
                     "slides": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "labMaterial": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "pastPapers": [
                         {
@@ -436,32 +424,41 @@
                         "file": ""
                     },
                     "notes": [
-                        {
-                            "title": "Principle of Information Security Book",
-                            "description": "By Whitman.",
-                            "file": "../data/infoSec/notes/Principles of Information Security by Whitman.pdf"
-                        }
+                        
                     ],
                     "slides": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                      
                     ],
                     "labMaterial": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                      
                     ],
                     "pastPapers": [
                         {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                            "title": "Long Questions of paper 1",
+                            "description": "This paper consist of long questions.",
+                            "file": "../data/infoSec/pastPapers/IS PP 1(Long).jpeg"
+                        },
+                        {
+                            "title": "Long Questions of paper 2",
+                            "description": "This paper consist of long questions.",
+                            "file": "../data/infoSec/pastPapers/IS PP 2-LONG.jpeg"
+                        },
+                         {
+                            "title": "Past Paper 2",
+                            "description": "This is paper of 2024 Fall Semester",
+                            "file": "../data/infoSec/pastPapers/IS PP 2.jpeg"
+                        },
+                         {
+                            "title": "Past Paper 3",
+                            "description": "This is paper of 2024 Spring Semester",
+                            "file": "../data/infoSec/pastPapers/IS PP 3.jpeg"
+                        },
+                         {
+                            "title": "Past Paper 3 Long Questions",
+                            "description": "This is paper of 2024 Spring Semester",
+                            "file": "../data/infoSec/pastPapers/IS PP 3 - LONG.jpeg"
+                        } 
+
                     ]
                 },
                 {
@@ -475,29 +472,45 @@
                     "notes": [
                         {
                             "title": "Operation System Book by Abraham Silberschatz",
-                            "description": "",
+                            "description": "This book covers the whole syllabus",
                             "file": "../data/os/notes/Abraham Silberschatz-Operating System Concepts (9t_251210_082354.pdf"
                         }
                     ],
                     "slides": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "labMaterial": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "pastPapers": [
                         {
-                            "title": "",
-                            "description": "",
-                            "file": ""
+                            "title": "Past Paper 1",
+                            "description": "This is the previous year paper of OS",
+                            "file": "../data/os/pastPapers/OS PP 1.pdf"
+                        },
+                        {
+                            "title": "Past Paper 2",
+                            "description": "This is the previous year paper of OS",
+                            "file": "../data/os/pastPapers/OS PP 2.pdf"
+
+                        },
+                        {
+                            "title": "Past Paper 3",
+                            "description": "This is the previous year paper of OS",
+                            "file": "../data/os/pastPapers/OS PP 3.pdf"
+
+                        },
+                        {
+                            "title": "Past Paper 4",
+                            "description": "This is the previous year paper of OS",
+                             "file": "../data/os/pastPapers/OS PP 4.pdf"
+
+                        },
+                        {
+                            "title": "Past Paper 5",
+                            "description": "This is the previous year paper of OS",
+                            "file": "../data/os/pastPapers/OS PP 5.pdf"
+
                         }
                     ]
                 },
@@ -505,9 +518,7 @@
                     "id": "sre",
                     "name": "SRE",
                     "outline": {
-                        "title": "SRE Outline",
-                        "description": "",
-                        "file": ""
+                      
                     },
                     "notes": [
                         {
@@ -517,24 +528,31 @@
                         }
                     ],
                     "slides": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                        
                     ],
                     "labMaterial": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "pastPapers": [
                         {
-                            "title": "",
-                            "description": "",
-                            "file": ""
+                            "title": "SRE Past Paper #1 - Long Questions",
+                            "description": "This is the previous paper of SRE",
+                            "file": "../data/sre/pastPapers/SRE PP 1 (long Qs).jpeg"
+                        },
+                        {
+                            "title": "SRE Past Paper #1",
+                            "description": "This is the previous paper of SRE",
+                            "file": "../data/sre/pastPapers/SRE PP 1.jpeg"
+                        },
+                        {
+                            "title": "SRE Past Paper #2",
+                            "description": "This is the previous paper of SRE",
+                            "file": "../data/sre/pastPapers/SRE PP 2.jpeg"
+                        },
+                        {
+                            "title": "SRE Past Paper #3",
+                            "description": "This is the previous paper of SRE",
+                            "file": "../data/sre/pastPapers/SRE PP 3.jpeg"
                         }
                     ]
                 },
@@ -542,9 +560,7 @@
                     "id": "webTech",
                     "name": "Web Technologies",
                     "outline": {
-                        "title": "Web Technologies Outline",
-                        "description": "",
-                        "file": ""
+                       
                     },
                     "notes": [
                         {
@@ -573,9 +589,34 @@
                     "labMaterial": [],
                     "pastPapers": [
                         {
-                            "title": "",
-                            "description": "",
-                            "file": ""
+                            "title": "Past Paper 1",
+                            "description": "This is the Previous year paper",
+                            "file": "../data/webTech/pastPapers/Web Tech pp 1.jpeg"
+                        },
+                        {
+                            "title": "Past Paper 2",
+                            "description": "This is the Previous year paper",
+                            "file": "../data/web Tech/pastPapers/Web Tech pp 2.jpeg"
+                        },
+                        {
+                            "title": "Past Paper 3",
+                            "description": "This is the Previous year paper",
+                            "file": "../data/web Tech/pastPapers/Web Tech pp 3.jpeg"
+                        },
+                        {
+                            "title": "Past Paper 4",
+                            "description": "This is the Previous year paper",
+                            "file": "../data/web Tech/pastPapers/Web Tech pp 4.jpeg"
+                        },
+                        {
+                            "title": "Past Paper 5",
+                            "description": "This is the Previous year paper",
+                            "file": "../data/wEB Tech/pastPapers/Web Tech pp 5.jpeg"
+                        },
+                        {
+                            "title": "Past Paper 6",
+                            "description": "This is the Previous year paper",
+                            "file": "../data/web Tech/pastPapers/Web Tech pp 6.jpeg"
                         }
                     ]
                 },
@@ -583,16 +624,10 @@
                     "id": "enterprise",
                     "name": "Enterprise System",
                     "outline": {
-                        "title": "Enterprise Outline",
-                        "description": "",
-                        "file": ""
+                       
                     },
                     "notes": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                        
                     ],
                     "slides": [
                         {
@@ -682,11 +717,7 @@
                         }
                     ],
                     "labMaterial": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "pastPapers": [
                         {
@@ -757,24 +788,61 @@
                         }
                     ],
                     "slides": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "labMaterial": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                        
                     ],
                     "pastPapers": [
                         {
-                            "title": "",
-                            "description": "",
-                            "file": ""
+                            "title": "Past Paper 1",
+                            "description": "Past paper 1 of ES",
+                            "file": "data/enterprise/pastPapers/Enterprise PP2.jpeg"
+                        },
+                        {
+                            "title": "Past Paper 2",
+                            "description": "Past paper 2 of ES",
+                            "file": "data/enterprise/pastPapers/Enterprise PP3.jpeg"
+                        },
+                        {
+                            "title": "Past Paper 3",
+                            "description": "Past paper 3 of ES",
+                            "file": "../data/enterprise/pastPapers/Enterprise PP4.jpeg"
+                        },
+                        {
+                            "title": "Past Paper 4",
+                            "description": "Past paper 4 of ES",
+                            "file": "../data/enterprise/pastPapers/Enterprise PP5.jpeg"
+                        },
+                        {
+                            "title": "Past Paper 5",
+                            "description": "Past paper 5 of ES",
+                            "file": "../data/enterprise/pastPapers/enterprise.jpeg"
+                        },
+                        {
+                            "title": "Past Paper of ES",
+                            "description": "Past paper of ES - CS Department",
+                            "file": "../data/enterprise/pastPapers/ES CS Spring 2024 Past Paper.pdf"
+                        },
+                        {
+                            "title": "Past Paper of ES",
+                            "description": "Past paper of ES - CS Department",
+                            "file": "../data/enterprise/pastPapers/ES IT Fall 2024 Solved Past Paper.pdf"
+                        },
+                        {
+                            "title": "Past Paper of ES",
+                            "description": "Past paper of ES - IT Department - Solved",
+                            "file": "../data/enterprise/pastPapers/ES IT Spring 2025 Solved Past Paper.pdf"
+                        },
+                        {
+                            "title": "Past Paper of ES",
+                            "description": "Past paper of ES",
+                            "file": "../data/enterprise/pastPapers/ES Past Paper.pdf"
+                        },
+                        {
+                            "title": "Past Paper 10",
+                            "description": "Past paper of ES",
+                            "file": "../data/enterprise/pastPapers/WhatsApp Image 2026-06-22 at 19.30.51.jpeg"
                         }
                     ]
                 },
@@ -836,11 +904,7 @@
                         }
                     ],
                     "labMaterial": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "pastPapers": [
                         {
@@ -859,11 +923,7 @@
                         "file": "../data/sna/outline/sna.pdf"
                     },
                     "notes": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "slides": [
                         {
@@ -930,48 +990,26 @@
                         }
                     ],
                     "pastPapers": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ]
                 },
                 {
                     "id": "ai",
                     "name": "Artificial Intelligence",
                     "outline": {
-                        "title": "AI Outline",
-                        "description": "",
-                        "file": ""
+                       
                     },
                     "notes": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "slides": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                       
                     ],
                     "labMaterial": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                        
                     ],
                     "pastPapers": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                        
                     ]
                 }
             ]
