@@ -369,9 +369,7 @@
                     "id": "daa",
                     "name": "DAA",
                     "outline": {
-                        "title": "",
-                        "description": "",
-                        "file": ""
+                        
                     },
                     "notes": [
                       
@@ -419,9 +417,7 @@
                     "id": "is",
                     "name": "Information Security",
                     "outline": {
-                        "title": "Information Security Outline",
-                        "description": "",
-                        "file": ""
+                       
                     },
                     "notes": [
                         
@@ -465,9 +461,7 @@
                     "id": "os",
                     "name": "Operating System",
                     "outline": {
-                        "title": "OS Outline",
-                        "description": "",
-                        "file": ""
+                       
                     },
                     "notes": [
                         {
@@ -720,11 +714,7 @@
                        
                     ],
                     "pastPapers": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                        
                     ]
                 },
                 {
@@ -907,11 +897,7 @@
                        
                     ],
                     "pastPapers": [
-                        {
-                            "title": "",
-                            "description": "",
-                            "file": ""
-                        }
+                        
                     ]
                 },
                 {
@@ -919,7 +905,7 @@
                     "name": "System and Network Administration",
                     "outline": {
                         "title": "Outline",
-                        "description": "",
+                        "description": "This outline was provided by PU",
                         "file": "../data/sna/outline/sna.pdf"
                     },
                     "notes": [
