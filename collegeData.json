@@ -368,8 +368,10 @@
                 {
                     "id": "daa",
                     "name": "DAA",
-                    "outline": {
-                        
+                   "outline": {
+                        "title": "DAA",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                       
@@ -416,8 +418,10 @@
                 {
                     "id": "is",
                     "name": "Information Security",
-                    "outline": {
-                       
+                     "outline": {
+                        "title": "Information Security",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         
@@ -461,7 +465,9 @@
                     "id": "os",
                     "name": "Operating System",
                     "outline": {
-                       
+                        "title": "Operating System",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
@@ -512,7 +518,9 @@
                     "id": "sre",
                     "name": "SRE",
                     "outline": {
-                      
+                        "title": "Software Requirement Engineering",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
@@ -553,8 +561,10 @@
                 {
                     "id": "webTech",
                     "name": "Web Technologies",
-                    "outline": {
-                       
+                   "outline": {
+                        "title": "Web Technologies",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         {
@@ -618,7 +628,9 @@
                     "id": "enterprise",
                     "name": "Enterprise System",
                     "outline": {
-                       
+                        "title": "Enterprise System",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                         
@@ -983,7 +995,9 @@
                     "id": "ai",
                     "name": "Artificial Intelligence",
                     "outline": {
-                       
+                        "title": "Artificial Intelligence",
+                        "description": "",
+                        "file": ""
                     },
                     "notes": [
                        
