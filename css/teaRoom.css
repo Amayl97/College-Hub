@@ -20,28 +20,55 @@
 }
 
 
-    body{
-    background:
-    radial-gradient(
-      circle at 15% 20%,
-      rgba(229, 216, 203, 0.8) 0,
-      transparent 25%
-    ),
-    radial-gradient(
-      circle at 85% 75%,
-      rgba(196, 197, 85, 0.12) 0,
-      transparent 25%
-    ),
-    repeating-linear-gradient(
-      0deg,
-      rgba(37, 26, 13, 0.025) 0px,
-      rgba(37, 26, 13, 0.025) 1px,
-      transparent 1px,
-      transparent 5px
-    ),
-    #f3eadc;
+.back {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    margin: 30px 0 20px 24px;
+    padding: 6px 12px;
+
+    background: var(--paper);
+    color: var(--forest);
+
+    border: 2px solid var(--forest);
+    border-radius: 999px;
+
+    font-family: "Bodoni Moda", serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+
+    box-shadow: 3px 3px 0 var(--taupe);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease,
+        color 0.2s ease;
 }
 
+.back:hover {
+    background: var(--lime);
+    color: var(--ink);
+
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 var(--forest);
+}
+
+.back:active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0 var(--forest);
+}
+
+@media (max-width: 600px) {
+    .back {
+        top: 14px;
+        left: 14px;
+        padding: 7px 12px;
+        font-size: 0.85rem;
+    }
+}
 
 
 .heading{

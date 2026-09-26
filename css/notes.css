@@ -29,6 +29,60 @@ body {
     background-size: 40px 40px;
     padding: 20px 20px 0;
 }
+
+.back {
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    z-index: 100;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 8px 15px;
+
+    background: var(--paper);
+    color: var(--forest);
+
+    border: 2px solid var(--forest);
+    border-radius: 999px;
+
+    font-family: "Bodoni Moda", serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+
+    box-shadow: 3px 3px 0 var(--taupe);
+
+    transition: 
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+.back:hover {
+    background: var(--lime);
+    color: var(--ink);
+
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 var(--forest);
+}
+
+.back:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0 var(--forest);
+}
+
+@media (max-width: 600px) {
+    .back {
+        top: 14px;
+        left: 14px;
+        padding: 7px 12px;
+        font-size: 0.85rem;
+    }
+}
 .heading{
     background:var(--blue);
     width: fit-content;
