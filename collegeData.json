@@ -799,12 +799,12 @@
                         {
                             "title": "Past Paper 1",
                             "description": "Past paper 1 of ES",
-                            "file": "data/enterprise/pastPapers/Enterprise PP2.jpeg"
+                            "file": "../data/enterprise/pastPapers/Enterprise PP2.jpeg"
                         },
                         {
                             "title": "Past Paper 2",
                             "description": "Past paper 2 of ES",
-                            "file": "data/enterprise/pastPapers/Enterprise PP3.jpeg"
+                            "file": "../data/enterprise/pastPapers/Enterprise PP3.jpeg"
                         },
                         {
                             "title": "Past Paper 3",
